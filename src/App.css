@@ -2,7 +2,9 @@
 
 @import './css/About.css';
 @import './css/Nav.css';
+@import './css//Home.css';
 
 body{
   background-color: aqua;
+  margin: 0;
 }

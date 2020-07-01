@@ -1,0 +1,25 @@
+
+.imgH{
+    width: 100%;
+    background-color: brown;
+}
+
+.widH{
+    width: 100%;
+    
+    
+}
+.poH{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.poTH{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    z-index: 1;
+    width: 30%;
+    background-color: rgba(148, 148, 184,0.6);
+
+}
