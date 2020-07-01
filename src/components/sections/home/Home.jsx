@@ -12,6 +12,7 @@ class Home extends Component {
       <div className='widH poH'>
         <Slide/>
         <div className='poTH'>
+          <h1>goooood</h1>
           <h2>You can make difference</h2>
           <p>¡Vivir en Pachachaca fue una 
             experiencia increíble! Todo ese 
