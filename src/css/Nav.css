@@ -1,0 +1,12 @@
+
+
+.ulN li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: large;
+}
+.ulN{
+    text-align: right;
+    list-style: none;
+   
+}

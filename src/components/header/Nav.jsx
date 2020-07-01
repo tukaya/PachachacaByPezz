@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom'
  const Nav = () => {
     return (
         <div>
-            <ul className='header'>
+            <ul className='ulN'>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/blog'>Blog</Link></li>
                 <li><Link to='/about'>About</Link></li>
-                <li><Link to='/vision-mission'>VisionMission</Link></li>
+                <li><Link to='/vision-mission'>Vision & Mission</Link></li>
                 <li><Link to='/albums'>Albums</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
                 <li><Link to='/donation'>Donation</Link></li>
