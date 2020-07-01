@@ -1,23 +1,26 @@
 
 
 import React, { Component } from 'react'
-
+import Styled from 'styled-components'
 import Slider from 'react-slick'
 
 
+const Wrapper = Styled.div`width :100%`;
+const Photo = Styled.div`width :100%`;
 
  class Slide extends Component {
 
     render() {
         return (
-            <div style={{width :'100%'}}>
+            <Wrapper>
                 <Slider speed={1000} slidesToShow={1}
-                slidesToScroll={1} infinite={true}>
-                    <div style={{width :'100%'}}>1</div>
-                    <div style={{width :'100%'}}>2</div>
-                    <div style={{width :'100%'}}>3</div>
+                slidesToScroll={1} infinite={false}
+                dots={true}>
+                    <Photo>1</Photo>
+                    <Photo>2</Photo>
+                    <Photo>3</Photo>
                 </Slider>
-            </div>
+            </Wrapper>
            
         )
     }    
