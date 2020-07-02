@@ -9,19 +9,13 @@ const cards = [
     avatar: one,
     date: 'Joined in 2013',
     header: 'Liesbeth Kerstens',
-    description: 'Para nosotros poder compartir parte de nosotros con los niños es una gran oportunidad',
+    description: 'estudió gestión de cultura en la facultad de Turismo y Transporte de Breda – Holanda y luego realizó una maestría en Desarrollo Internacional en la Universidad de Amsterdam. Vivió en Cusco (Perú) entre 2004 y 2009. Aquí fundó la organización peruana Asociación Pasa la Voz. El ámbito de gestión de Pasa la Voz es la región de Cusco, donde uno de los principales objetivos de esta es mejorar la vida de los niños que crecen bajo diferentes formas de acogida. Pasa la Voz capacita al personal de las organizaciones anfitrionas y promueve la participación de los niños. Debido al éxito de Pasa la Voz en Cusco, el método fue adaptado al contexto holandés para ser utilizado en Rotterdam; esto a petición del municipio de esta ciudad. Como resultado, se fundó la fundación Hoedje van Papier de la cual Liesbeth es la directora desde 2009. Esta fundación ayuda a enseñar a los ciudadanos de Rotterdam, tanto niños como adultos en situación de vulnerabilidad, habilidades para participar tan activamente como sea posible dentro de la sociedad holandesa. La fundación Hoedje van Papier fue seleccionada por la organización Oranjefonds para el denominado Programa de Crecimiento. Gracias a su participación en este programa, Liesbeth recibió un diploma del rey Willem-Alexander debido a su compromiso con la sociedad holandesa',
   },
   {
     avatar: two,
-    date: 'Joined in 2013',
+    date: 'Joined in 2015',
     header: 'Pavel Marmanillo Barrio de Mendoza',
-    description: ' A pesar del crecimiento económico que el Perú viene ostentando en los últimos años, la desigualdad social sigue siendo clara y tangible en las zonas andinas de donde provienen los niños de Calca e incluso en los barrios donde se ven niños trabajando en el mercado y que no asisten al colegio. ',
-  },
-  {
-    avatar: one,
-    date: 'Joined in 2013',
-    header: 'Liesbeth Kerstens',
-    description: 'Para nosotros poder compartir parte de nosotros con los niños es una gran oportunidad',
+    description: 'estudió ingeniería de minas en la Universidad de San Antonio Abad en Cusco. Terminó sus estudios en la Universidad de Piura, en el norte del Perú. Pavel es colíder de un pequeño negocio que tiene objetivos tanto comerciales como sociales. En 2006 vivió varios meses en Brasil, donde trabajó para la sucursal de su empresa. En 2012, junto con sus hermanas, fundó la asociación cultural "La Familia" y, además de su trabajo, es activo como músico y escritor. Ha compartido estos talentos como voluntario en diversos proyectos sociales que, en gran medida, están destinados a cuidar de las mujeres, los niños, el medio ambiente y los Derechos Humanos. Su experiencia fue adquirida en países como Perú, Colombia, Brasil, India, Nepal, Palestina y Holanda.',
   },
 ]
 
@@ -46,7 +40,7 @@ export default class PlaceholderExampleCard extends Component {
         </Button>
         <Divider />
 
-        <Card.Group doubling itemsPerRow={5} stackable>
+        <Card.Group doubling itemsPerRow={2} stackable>
           {_.map(cards, (card) => (
             <Card key={card.header}>
               {loading ? (
@@ -78,10 +72,10 @@ export default class PlaceholderExampleCard extends Component {
               </Card.Content>
 
               <Card.Content extra>
-                <Button disabled={loading} primary>
-                  Add
-                </Button>
-                <Button disabled={loading}>Delete</Button>
+                <Button circular color='facebook' icon='facebook' />
+                <Button circular color='twitter' icon='twitter' />
+                <Button circular color='linkedin' icon='linkedin' />
+                <Button circular color='google plus' icon='google plus'/>
               </Card.Content>
             </Card>
           ))}

@@ -8,13 +8,13 @@ import { Container } from 'semantic-ui-react';
 class About extends Component {
   render() {
     return (
-      <div  className='imgA'>
+      <div style={{marginTop:'80px', textAlign:'center'}} className='imgA'>
         <Container>
-          <h2>Video</h2>
+          <h1>Video</h1>
             <Videoabout />
           <h1>About us</h1>
             <AboutUs />
-          <h3>Our Team</h3>
+          <h1>Our Team</h1>
             <OurTeam /> 
         </Container>
       </div>
