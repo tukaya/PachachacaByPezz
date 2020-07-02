@@ -1,22 +1,62 @@
 
-.imgH{
-    width: 100%;
-}
-
 .widH{
     width: 80%;
     margin: 0 auto; 
 }
-.poH{
-    width: 100%;
-     margin: 0 auto;
-     border: 2px solid red;
+.minedivH{
+    margin-top: 0 auto;
 }
-/* .poTH{
+.poTH{
     position: absolute;
-    left: 20%;
-    top: 40%;
+    left: 15%;
+    top: 55%;
     z-index: 1;
     width: 30%;
     background-color: rgba(148, 148, 184,0.6);
-} */
+    border-radius: 33px;
+    text-align: justify;
+    text-align-last: center;
+    padding: 5px;
+}
+.imgH2{
+    margin: 0 auto; 
+    position: relative;
+    width: 80%;
+    height: 320px;
+    background-image: url(../components/images/d.jpg); 
+    background-size: cover;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.em;
+    padding: 0.05%;
+} 
+.imgH2:before {
+    content: "";
+    background-color: rgba(85, 85, 92, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    opacity: 0.9;
+    width: 40%;
+    margin: 0 auto;
+}
+.imgH2 div{
+    margin-top: 10% ;
+    position: relative;
+    text-align: center;
+}
+.imgH2 button{
+    background-color: rgba(85, 85, 92, 0.7);
+    border-radius: 50%;
+    border: none;
+    padding: 0.5%;
+}
+.divhightH{
+    border: 2px solid red;
+    height: 600px;
+    box-shadow: 5px 10px rgba(148, 148, 184,0.8);
+    background-color: white;
+}
