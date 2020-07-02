@@ -9,7 +9,10 @@
 .ulN{
     text-align: right;
     list-style: none;
-    
+    position: absolute;
+    top: 0;
+    width: 80%; 
+    z-index: 1; 
 }
 .ulLN{
     text-decoration: none;
