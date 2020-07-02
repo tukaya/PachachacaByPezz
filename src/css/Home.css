@@ -1,24 +1,22 @@
 
 .imgH{
     width: 100%;
-    background-color: brown;
 }
 
 .widH{
-    width: 100%;
-    
-    
+    width: 80%;
+    margin: 0 auto; 
 }
 .poH{
-    position: absolute;
-    top: 0px;
-    z-index: -1;
+    width: 100%;
+     margin: 0 auto;
+     border: 2px solid red;
 }
-.poTH{
+/* .poTH{
     position: absolute;
     left: 20%;
     top: 40%;
     z-index: 1;
     width: 30%;
     background-color: rgba(148, 148, 184,0.6);
-}
+} */

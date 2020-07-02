@@ -12,12 +12,32 @@ import c from"../../images/c.jpg"
 
  class Slide extends Component {
 
+    
+    componentDidMount(){
+      
+        this.slider.slickPlay();
+
+    }
+    
     render() {
+        const settings = {
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            speed: 500,
+            pauseOnHover: false
+
+          };
         return (
             
-            <div className='widH'>
-            <Slider speed={500} slidesToShow={1}
-            slidesToScroll={1} infinite={true}
+            <div className='imgH'>
+            <Slider 
+            ref={slider => (this.slider = slider)}
+            {...settings}
+
             >
                 <div className='imgH'><img className='widH' src={a} alt="a"/></div>
                 <div className='imgH'><img className='widH' src={b} alt="b"/></div>
