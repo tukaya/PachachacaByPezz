@@ -1,21 +1,21 @@
 import _ from 'lodash'
 import React, { Component, Fragment } from 'react'
 import { Button, Card, Divider, Image, Placeholder } from 'semantic-ui-react'
-import one from '../../images/one.jpg'
-import two from '../../images/two.jpg'
+import one from '../../images/About/one.jpg'
+import two from '../../images/About/two.jpg'
 
 const cards = [
   {
     avatar: one,
-    date: 'Joined in 2013',
+    date: '(1975)',
     header: 'Liesbeth Kerstens',
-    description: 'estudió gestión de cultura en la facultad de Turismo y Transporte de Breda – Holanda y luego realizó una maestría en Desarrollo Internacional en la Universidad de Amsterdam. Vivió en Cusco (Perú) entre 2004 y 2009. Aquí fundó la organización peruana Asociación Pasa la Voz. El ámbito de gestión de Pasa la Voz es la región de Cusco, donde uno de los principales objetivos de esta es mejorar la vida de los niños que crecen bajo diferentes formas de acogida. Pasa la Voz capacita al personal de las organizaciones anfitrionas y promueve la participación de los niños. Debido al éxito de Pasa la Voz en Cusco, el método fue adaptado al contexto holandés para ser utilizado en Rotterdam; esto a petición del municipio de esta ciudad. Como resultado, se fundó la fundación Hoedje van Papier de la cual Liesbeth es la directora desde 2009. Esta fundación ayuda a enseñar a los ciudadanos de Rotterdam, tanto niños como adultos en situación de vulnerabilidad, habilidades para participar tan activamente como sea posible dentro de la sociedad holandesa. La fundación Hoedje van Papier fue seleccionada por la organización Oranjefonds para el denominado Programa de Crecimiento. Gracias a su participación en este programa, Liesbeth recibió un diploma del rey Willem-Alexander debido a su compromiso con la sociedad holandesa',
+    description: ' studied Leisure Management at the College of Tourism and Traffic in Breda and completed a master s degree in International Development Studies at the University of Amsterdam. She relocated and lived in Cusco, Peru between 2004 and 2009, during which time she created the Peruvian foundation Asociación Pasa la Voz. This foundation used to operate in the Cusco region to improve the living conditions of children who grow up in different forms of childcare. Pasa la Voz trained the staff of childcare organizations on pedagogical levels and promoted the active participation of children. Due to the success of Pasa la Voz, their methodologies had been translated into the Dutch environment at the request of the Municipality of Rotterdam. This led to the establishment of the Hoedje van Papier foundation, with Liesbeth as the then director in 2009. This foundation assists Rotterdammer’s adults and children in vulnerable situations to acquire skills toward active participation in society. Hoedje van Papier foundation was selected by the Oranjefonds (Royal funding organization in Holland) for the so-called ‘Growth Program’. Thanks to participation in this program and because of her commitment to the Dutch society, Liesbeth received a award from King Willem-Alexander.',
   },
   {
     avatar: two,
-    date: 'Joined in 2015',
+    date: '(1981)' ,
     header: 'Pavel Marmanillo Barrio de Mendoza',
-    description: 'estudió ingeniería de minas en la Universidad de San Antonio Abad en Cusco. Terminó sus estudios en la Universidad de Piura, en el norte del Perú. Pavel es colíder de un pequeño negocio que tiene objetivos tanto comerciales como sociales. En 2006 vivió varios meses en Brasil, donde trabajó para la sucursal de su empresa. En 2012, junto con sus hermanas, fundó la asociación cultural "La Familia" y, además de su trabajo, es activo como músico y escritor. Ha compartido estos talentos como voluntario en diversos proyectos sociales que, en gran medida, están destinados a cuidar de las mujeres, los niños, el medio ambiente y los Derechos Humanos. Su experiencia fue adquirida en países como Perú, Colombia, Brasil, India, Nepal, Palestina y Holanda.',
+    description: ' studied mining at the University of San Antonio Abad del Cusco. He completed his studies and graduated from the University of Piura, Peru. Pavel runs a small family business together with his father, which maintains both socially conscious and commercial goals. In 2006 the business operations brought him to Brazil where he lived for a time. In addition to his work in the family business, Pavel is an active musician and writer. He combined these talents with volunteer work for various social projects which focus on care for women and children and environmental issues. His experience has been international in countries such as Peru, Colombia, Brazil, India, Nepal, Palestine and the Netherlands.  Liesbeth and Pavel have been living and working together in the Family Home of Pachachaca since 2016, where they support children in disadvantaged situations. Together they shape a life in which living and working is integrated in their shared vision. They apply their years of  knowledge and experience to the success of Pachachaca’s mission. Yoreem is a foundation (Stichting Yoreem Foundation). This foundation was founded in 2006 and has ANBI-approval. The board consists of Daphne Hebing, Wim Wesselo and René Sueters. They are very involved in the activities of Pachachaca, and are very happy to contribute their knowledge to the project.',
   },
 ]
 

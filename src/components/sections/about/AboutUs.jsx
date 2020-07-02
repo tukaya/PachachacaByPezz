@@ -1,6 +1,6 @@
-import React from 'react'
-import { Grid, Image } from 'semantic-ui-react'
-import logoabout from '../../images/logoabout.png'
+import React from 'react';
+import { Grid, Image } from 'semantic-ui-react';
+import logoabout from '../../images/Logo/logoabout.png';
 
 const GridExampleCelled = () => (
   <Grid celled>

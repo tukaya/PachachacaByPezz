@@ -4,6 +4,7 @@ import OurTeam from '../about/OurTeam';
 import AboutUs from '../about/AboutUs';
 import Videoabout from '../about/Videoabout';
 import { Container } from 'semantic-ui-react';
+import Logo from '../about/Logo';
 
 class About extends Component {
   render() {
@@ -16,6 +17,7 @@ class About extends Component {
             <AboutUs />
           <h1>Our Team</h1>
             <OurTeam /> 
+            <Logo />
         </Container>
       </div>
     );
