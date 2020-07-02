@@ -1,11 +1,12 @@
 import React from 'react'
 import { Grid, Image } from 'semantic-ui-react'
+import logoabout from '../../images/logoabout.png'
 
 const GridExampleCelled = () => (
   <Grid celled>
     <Grid.Row>
       <Grid.Column width={3}>
-        <Image src='/Images/LogoAboutUs.png' />
+        <Image src={logoabout} />
       </Grid.Column>
       <Grid.Column width={13}>
         <h3>

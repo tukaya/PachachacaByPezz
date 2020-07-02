@@ -1,22 +1,24 @@
 import _ from 'lodash'
 import React, { Component, Fragment } from 'react'
 import { Button, Card, Divider, Image, Placeholder } from 'semantic-ui-react'
+import one from '../../images/one.jpg'
+import two from '../../images/two.jpg'
 
 const cards = [
   {
-    avatar: '/Images/one.jpg',
+    avatar: one,
     date: 'Joined in 2013',
     header: 'Liesbeth Kerstens',
     description: 'Para nosotros poder compartir parte de nosotros con los niños es una gran oportunidad',
   },
   {
-    avatar: '/Images/two.jpg',
+    avatar: two,
     date: 'Joined in 2013',
     header: 'Pavel Marmanillo Barrio de Mendoza',
     description: ' A pesar del crecimiento económico que el Perú viene ostentando en los últimos años, la desigualdad social sigue siendo clara y tangible en las zonas andinas de donde provienen los niños de Calca e incluso en los barrios donde se ven niños trabajando en el mercado y que no asisten al colegio. ',
   },
   {
-    avatar: '/Images/one.jpg',
+    avatar: one,
     date: 'Joined in 2013',
     header: 'Liesbeth Kerstens',
     description: 'Para nosotros poder compartir parte de nosotros con los niños es una gran oportunidad',

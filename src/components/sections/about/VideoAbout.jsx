@@ -1,5 +1,6 @@
 import React from 'react'
 import { Embed } from 'semantic-ui-react'
+import Videoabout from '../../images/im1.jpg'
 
 const EmbedExampleIframe = () => (
   <Embed
@@ -8,14 +9,15 @@ const EmbedExampleIframe = () => (
     hd={false}
     id='gJscrxxl_Bg'
     iframe={{
+      src:"https://www.youtube.com/embed/1p7X67ucbYg",       
       allowFullScreen: true,
       style: {
         padding: 10,
       },
     }}
-    placeholder='/Images/im1.jpg'
-    url='https://www.youtube.com/watch?v=1p7X67ucbYg&feature=youtu.be'
+    placeholder={Videoabout}
   />
 )
 
 export default EmbedExampleIframe
+

@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import OurTeam from '../about/OurTeam';
 import AboutUs from '../about/AboutUs';
-import VideoAbout from '../about/VideoAbout';
+import Videoabout from '../about/Videoabout';
 import { Container } from 'semantic-ui-react';
 
 class About extends Component {
@@ -11,7 +11,7 @@ class About extends Component {
       <div  className='imgA'>
         <Container>
           <h2>Video</h2>
-            <VideoAbout />
+            <Videoabout />
           <h1>About us</h1>
             <AboutUs />
           <h3>Our Team</h3>
