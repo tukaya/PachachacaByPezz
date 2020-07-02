@@ -5,10 +5,7 @@
 @import './css//Home.css';
 
 body{
-  background-color: aqua;
+  background-color: white;
   margin: 0 auto;
   width: 90%;
 }
-/* *{
-  border: 2px solid red;
-} */
