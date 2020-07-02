@@ -11,13 +11,15 @@ class About extends Component {
     return (
       <div style={{marginTop:'80px', textAlign:'center'}} className='imgA'>
         <Container>
-          <h1>Video</h1>
-            <Videoabout />
-          <h1>About us</h1>
-            <AboutUs />
-          <h1>Our Team</h1>
-            <OurTeam /> 
-            <Logo />
+          <div>
+            <h1>Video</h1>
+              <Videoabout />
+            <h1>About us</h1>
+              <AboutUs />
+            <h1>Our Team</h1>
+              <OurTeam /> 
+              <Logo />
+          </div>
         </Container>
       </div>
     );

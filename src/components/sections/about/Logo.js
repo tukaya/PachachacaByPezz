@@ -12,7 +12,6 @@ import WG from '../../images/Logo/WG.png';
 
 
 // const src = '/images/wireframe/image.png'
-
 const ImageExampleGroupSize = () => (
   <div>
     <Image.Group size='tiny'>

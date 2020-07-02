@@ -3,7 +3,8 @@ import { Grid, Image } from 'semantic-ui-react';
 import logoabout from '../../images/Logo/logoabout.png';
 
 const GridExampleCelled = () => (
-  <Grid celled>
+  <div>
+    <Grid celled>
     <Grid.Row>
       <Grid.Column width={3}>
         <Image src={logoabout} />
@@ -15,7 +16,8 @@ const GridExampleCelled = () => (
         </h3>
       </Grid.Column>
     </Grid.Row>
-  </Grid>
+    </Grid>
+  </div>
 )
 
 export default GridExampleCelled

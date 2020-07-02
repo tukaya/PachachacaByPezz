@@ -34,7 +34,8 @@ export default class PlaceholderExampleCard extends Component {
     const { loading } = this.state
 
     return (
-      <Fragment>
+      <div>
+        <Fragment>
         <Button loading={loading} onClick={this.handleLoadingClick} primary>
           Simulate loading
         </Button>
@@ -81,6 +82,7 @@ export default class PlaceholderExampleCard extends Component {
           ))}
         </Card.Group>
       </Fragment>
+      </div>
     )
   }
 }
