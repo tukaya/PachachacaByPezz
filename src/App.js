@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { Route, BrowserRouter, Switch} from 'react-router-dom';
-
+// import 'semantic-ui-css/semantic.min.css';
 import Home from './components/sections/home/Home';
 import Blog from './components/sections/blog/Blog';
 import About from './components/sections/about/About';

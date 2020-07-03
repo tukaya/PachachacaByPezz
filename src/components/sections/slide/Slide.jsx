@@ -26,8 +26,7 @@ import c from"../../images/c.jpg"
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2000,
-            speed: 500,
+            autoplaySpeed: 5000,
             pauseOnHover: false
 
           };
