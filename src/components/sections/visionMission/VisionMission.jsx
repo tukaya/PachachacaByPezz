@@ -1,4 +1,8 @@
+
+
 import React from 'react';
+import Darkmode from 'darkmode-js';
+// import Darkmode from 'darkmode-js';
 // import { makeStyles } from '@material-ui/core/styles';
 // import Card from '@material-ui/core/Card';
 // import CardActionArea from '@material-ui/core/CardActionArea';
@@ -8,7 +12,7 @@ import React from 'react';
 // import Button from '@material-ui/core/Button';
 // import Typography from '@material-ui/core/Typography';
 
-import Darkmode from 'darkmode-js';
+
 new Darkmode().showWidget();
 
 // const useStyles = makeStyles({
@@ -21,16 +25,18 @@ export default function ImgMediaCard() {
   // const classes = useStyles();
 
   return (
-    <div style={{ paddingTop: '40px' }}>
-      <img
-        src={require('./do-something-great.jpg')}
-        style={{ width: '100%', height: '50%' }}
-        alt='do-something-great'
-      />
-      <h2 style={{ textDecoration: 'underline' }}>Mission & Vision</h2>
+    <div className='divwidthV'>
+      <div>
+        <img className='widthimg'
+          src={require('./do-something-great.jpg')}
+        
+          alt='do-something-great'
+        />
+      </div>
+      <h2 style={{ textDecoration: 'underline' }}>Mission  Vision</h2>
       <p
         style={{
-          fontSize: '1.3rem',
+          fontSize: '1.3em',
           textAlign: 'justify',
         }}
       >

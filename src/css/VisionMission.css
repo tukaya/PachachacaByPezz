@@ -1,0 +1,15 @@
+
+
+.divwidthV{
+    width: 90%;
+    margin: 0 auto;
+}
+.divwidthV > div:first-child {
+    width: 90%;
+    margin: auto;
+}
+.widthimg{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}

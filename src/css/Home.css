@@ -39,6 +39,7 @@
     line-height: 1.em;
     padding: 0.05%;
     box-shadow: 8px 8px 8px 8px rgba(148, 148, 184,0.8);
+    /* border: 5px solid red; */
 } 
 .imgH2:before {
     content: "";
@@ -51,10 +52,11 @@
     opacity: 0.9;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 .imgH2 button{
-    background-color: rgba(85, 85, 92, 0.7);
+    background-color: rgba(148, 148, 184,0.8);
     border-radius: 50%;
     border: none;
     padding: 0.5%;
@@ -69,4 +71,7 @@
 }
 .chailddiv h2:nth-child(3){
     margin-top: 10%;
+}
+.slick-arrow{
+    display: none !important;
 }
