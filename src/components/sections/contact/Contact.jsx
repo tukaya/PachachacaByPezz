@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import { Card,Container} from 'semantic-ui-react'
-
+import 'semantic-ui-css/semantic.min.css'
 class Contact  extends Component {
   constructor(){
       super()
@@ -48,11 +48,11 @@ class Contact  extends Component {
   
       
       return (
-           <div> 
+           <div className='the_tobC'> 
                
-               <Container>
+               <Container >
                <Card id='contactcard' >
-                   <Card.Header className='cardheader ' ><h1 >Contact me</h1></Card.Header>
+                   <Card.Header className='cardheader ' ><h1 >Contact US</h1></Card.Header>
                    <Card.Content className='Cardcontent'>
                        <label className='cardtext'>Name</label>
                        <input className='input'

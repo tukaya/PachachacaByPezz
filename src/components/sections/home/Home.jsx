@@ -27,7 +27,7 @@ class Home extends Component {
         
         <div  className='imgH2'>
           <div className='chailddiv'>
-            <h1 >WLCOM TO PACHACHACA</h1>
+            <h1>WELCOM TO PACHACHACA</h1>
             <hr/>
             <h2>PERU , WHERE IT ALL STARTED</h2>
             <h2>PERU , WHERE IT ALL STARTED</h2>
