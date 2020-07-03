@@ -7,6 +7,8 @@ import FormLabel from '@material-ui/core/FormLabel';
 import Button from '@material-ui/core/Button';
 import { Input } from '@material-ui/core';
 import Container from '@material-ui/core/Container';
+import { Image } from 'semantic-ui-react';
+import Ideal from '../../images/Donation/ideal1.jpg';
 
 export default function RadioButtonsGroup() {
   const [value, setValue] = React.useState('female');
@@ -16,8 +18,9 @@ export default function RadioButtonsGroup() {
   };
 
   return (
-    <Container style={{ padding:'100px'}}>
-      <FormControl component="fieldset">
+    <Container fixed style={{ padding:'100px'}}>
+    <div style={{ float:'right'}}>
+    <FormControl component="fieldset">
       <FormLabel component="legend">Online Donation Process</FormLabel>
       <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
         <FormControlLabel value="£10 Donation" control={<Radio />} label="£10 Donation" />
@@ -30,10 +33,12 @@ export default function RadioButtonsGroup() {
       </RadioGroup>
       <br />
       <Input type='text' placeholder='please enter your own amount'/>
-      <Button variant="outlined" color="secondary">
+      <Button style={{ marginTop:'30px'}} variant="outlined" color="secondary">
         Submit
-       </Button>
+      </Button>
     </FormControl>
+    </div>
+      <Image src={Ideal}/>
     </Container>
   );
 }

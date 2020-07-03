@@ -1,5 +1,5 @@
 import React from 'react'
-import { Divider, Image } from 'semantic-ui-react'
+import { Divider, Image } from 'semantic-ui-react';
 import Mano from '../../images/Logo/LogoMano.png';
 import Annamuntz from '../../images/Logo/Annamuntz.jpg';
 import logoyoreem from '../../images/Logo/logoyoreem.png';
