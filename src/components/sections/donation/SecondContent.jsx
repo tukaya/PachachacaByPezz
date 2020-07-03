@@ -2,7 +2,8 @@ import React from 'react'
 import { Card, Icon } from 'semantic-ui-react'
 
 const CardExampleImageCard = () => (
-  <Card fluid color='teal'>
+<div className='styleDo'>
+<Card fluid color='teal'>
     <Card.Content>
       <Card.Header>Donors</Card.Header>
       <Card.Meta>Thanks to all donors, including:</Card.Meta>
@@ -24,6 +25,7 @@ const CardExampleImageCard = () => (
       </Card.Description>
     </Card.Content>
   </Card>
+</div>
 )
 
 export default CardExampleImageCard
