@@ -6,10 +6,18 @@
 .minedivH{
     margin-top: 0 auto;
 }
+.chailddiv{
+    margin: 0 auto; 
+    position: relative;
+    text-align: center;
+    word-spacing: 30px;
+    width: 50%;
+}
 .poTH{
+    margin: 0 auto;
     position: absolute;
     left: 15%;
-    top: 55%;
+    top: 45%;
     z-index: 1;
     width: 30%;
     background-color: rgba(148, 148, 184,0.6);
@@ -20,16 +28,17 @@
 }
 .imgH2{
     margin: 0 auto; 
+    /* margin-top: 20px; */
     position: relative;
     width: 80%;
-    height: 320px;
     background-image: url(../components/images/d.jpg); 
     background-size: cover;
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
+    /* vertical-align: middle; */
+    /* justify-content: center;
+    align-items: center; */
     line-height: 1.em;
     padding: 0.05%;
+    box-shadow: 8px 8px 8px 8px rgba(148, 148, 184,0.8);
 } 
 .imgH2:before {
     content: "";
@@ -40,23 +49,24 @@
     bottom: 0px;
     left: 0px; 
     opacity: 0.9;
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
 }
-.imgH2 div{
-    margin-top: 10% ;
-    position: relative;
-    text-align: center;
-}
+
 .imgH2 button{
     background-color: rgba(85, 85, 92, 0.7);
     border-radius: 50%;
     border: none;
     padding: 0.5%;
+    width: 25%;
+    line-height: 1.5em;
 }
-.divhightH{
-    border: 2px solid red;
-    height: 600px;
-    box-shadow: 5px 10px rgba(148, 148, 184,0.8);
-    background-color: white;
+.imgH2 h1{
+    word-spacing: 50px;
+    font-size: 3em;
+    margin-top: 2%;
+    /* margin-bottom: 20%; */
+}
+.chailddiv h2:nth-child(3){
+    margin-top: 10%;
 }

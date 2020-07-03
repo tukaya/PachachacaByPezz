@@ -9,47 +9,34 @@ import b from"../../images/b.jpg"
 import c from"../../images/c.jpg"
 
 
-
  class Slide extends Component {
 
-    
     componentDidMount(){
-      
         this.slider.slickPlay();
-
     }
-    
     render() {
         const settings = {
             dots: false,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 5000,
             pauseOnHover: false
 
           };
         return (
             
-            <div className='imgH'>
+            <div >
             <Slider 
             ref={slider => (this.slider = slider)}
-            {...settings}
-
-            >
-                <div className='imgH'><img className='widH' src={a} alt="a"/></div>
-                <div className='imgH'><img className='widH' src={b} alt="b"/></div>
-                <div className='imgH'><img className='widH' src={c} alt="c"/></div>
-                
+            {...settings} >
+                <div ><img className='widH' src={a} alt="a"/></div>
+                <div ><img className='widH' src={b} alt="b"/></div>
+                <div ><img className='widH' src={c} alt="c"/></div>
             </Slider>
-            </div>
-            
-            
-           
+            </div> 
         )
-    }    
-
-    
+    }     
 }
 export default Slide   
