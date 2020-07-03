@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import OurTeam from '../about/OurTeam';
 import AboutUs from '../about/AboutUs';
-import Videoabout from '../about/Videoabout';
+import VideoAbout from '../about/VideoAbout';
 import { Container } from 'semantic-ui-react';
 import Logo from '../about/Logo';
 
@@ -13,7 +13,7 @@ class About extends Component {
         <Container>
           <div>
             <h1>Video</h1>
-              <Videoabout />
+              <VideoAbout />
             <h1>About us</h1>
               <AboutUs />
             <h1>Our Team</h1>
