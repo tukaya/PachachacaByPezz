@@ -3,3 +3,33 @@
 .bodyA{
     background-color: aqua;
 }
+
+.ui.images {
+    padding-top: 50px;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+    position: relative;
+    display: block;
+    flex: 0 0 auto;
+    padding: 0;
+    background: rgba(0,0,0,.05);
+    padding: 30px;
+    border-radius: 14%;
+    width: 350px;
+    margin-left: 80px;
+}
+
+.ui.card>.content>.header+.description, .ui.card>.content>.meta+.description, .ui.cards>.card>.content>.header+.description, .ui.cards>.card>.content>.meta+.description {
+    margin-top: .5em;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child {
+    margin-bottom: 0;
+    text-align: left;
+    padding: 30px;
+}
+
+

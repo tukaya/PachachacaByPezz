@@ -1,16 +1,20 @@
 
-
 import React, { Component } from 'react';
+import { Container } from 'semantic-ui-react';
+import Form from '../donation/Form';
+import FirstContent from '../donation/FirstContent';
+import SecondContent from '../donation/SecondContent';
 
-class Donation extends Component {
+class About extends Component {
   render() {
     return (
-      <div>
-        <h2>Donation page</h2>
-        <p>This is Donation page.</p>
-      </div>
+        <Container style={{marginTop:'80px'}} className='imgA'>
+          <Form />
+          <FirstContent />
+          <SecondContent />
+        </Container>
     );
   }
 }
 
-export default Donation;
+export default About;

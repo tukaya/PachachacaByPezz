@@ -3,6 +3,7 @@
 @import './css/About.css';
 @import './css/Nav.css';
 @import './css//Home.css';
+<<<<<<< HEAD
 @import './css/Activities.css';
 @import './css/Footer.css';
 @import './css/Blog.css';
@@ -18,3 +19,12 @@ body{
 *{
   /* border: 2px solid red; */
 }
+=======
+@import './css//Donate.css';
+
+body{
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
+}
+>>>>>>> 60c07ce73fe54595c5e4c95c49d7a9d442d0c8cf
