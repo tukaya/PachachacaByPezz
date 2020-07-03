@@ -8,10 +8,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+<<<<<<< HEAD
     "axios": "^0.19.2",
+=======
+    "darkmode-js": "^1.5.6",
+>>>>>>> 38edef216f1d5f0da512552dda5dc549c946d56e
     "emotion": "^10.0.27",
     "markdown-to-jsx": "^6.11.4",
     "react": "^16.13.1",
+    "react-dark-mode-toggle": "^0.0.6",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
