@@ -1,6 +1,8 @@
+
+
 import React from 'react';
 // import { makeStyles } from '@material-ui/core/styles';
-// import CssBaseline from '@material-ui/core/CssBaseline';
+
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 
@@ -55,9 +57,9 @@ export default function Blog() {
   // const classes = useStyles();
 
   return (
-    <React.Fragment>
-      {/* <CssBaseline /> */}
-      <Container maxWidth='lg'>
+    <React.Fragment >
+      
+      <Container maxWidth='lg' >
         {/* <Header title='Blog' sections={sections} /> */}
         <main style={{ paddingTop: '40px' }}>
           <MainFeaturedPost post={mainFeaturedPost} />

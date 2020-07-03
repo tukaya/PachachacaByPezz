@@ -1,0 +1,68 @@
+
+.maindivF{
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 20px; 
+  border: 10px  solid rgba(148, 148, 184,0.8);
+  border-top-left-radius: 200px 50px;
+  border-top-right-radius: 200px 50px;
+}
+
+.maindivF h6{
+  vertical-align: bottom;
+  margin: 0 auto;
+  margin-top: 30px ;
+}
+.Icon{
+    background-color: gray !important;
+    border-radius: 50%;
+    color: black;
+  }
+  .SOSIAL{
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    /* text-align: center; */
+    margin-top: 10px ;
+  }
+  .SOSIAL :first-child{
+    text-decoration: underline;
+  }
+  /* .maindivF{
+
+} */
+.maindivF_btn{
+  background:#42415c;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  border-radius: 50%;
+  border: none;
+  right: 32px;
+  bottom: 82px;
+  left: unset;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maindivF_btn2{background: #42415c;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  border-radius: 50%;
+  border: none;
+  right: 82px;
+  bottom: 32px;
+  left: unset;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

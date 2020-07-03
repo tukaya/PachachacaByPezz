@@ -1,0 +1,66 @@
+
+
+.divhightA{
+    margin:  auto;
+    height: auto;
+    padding: 5px;
+    width: 80%;
+    box-shadow: 8px 8px 8px 8px rgba(148, 148, 184,0.8);
+    background-color: white;
+    margin-top: 20px;
+    /* border: 5px solid red; */
+}
+.grid_div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+}
+.divhightA h4:first-child{
+    font-size: 1.5em;
+}
+
+.divhightA h2{
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 2em;
+    margin-bottom: 3%;
+   padding-top: 1%;
+}
+
+.rightdiv{
+    padding: 5px;
+    background-color: salmon;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: bottom;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+.rightdiv > img, .leftdiv > img {
+    width: 25%;
+    margin: 5px;
+}
+.rightdiv :first-child{
+    /* text-decoration: underline; */
+}
+.leftdiv{
+    padding: 5px;
+    background-color: seagreen;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    /* display: inline-block; */
+    /* vertical-align: bottom; */
+    /* align-items: center; */
+    word-break: break-all;
+}
+.leftdiv :nth-child(2){
+    text-decoration: underline;
+    /* display: block; */
+    text-align: right;
+    width: 50%;
+    
+}

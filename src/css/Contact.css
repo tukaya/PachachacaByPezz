@@ -1,0 +1,45 @@
+
+
+
+
+#contactcard{
+  margin: 110px auto;
+  width: 50%;
+  text-align: center;
+  }
+  .cardtext{
+  vertical-align: middle;
+  color: #1e70bf;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+  
+  .vertical{
+    text-align: justify;
+    
+    justify-content: space-evenly;
+  }
+  .input{
+    width: 40%;
+    height: 30px;
+    margin-right: 30px ;
+    float: right;
+  }
+  
+  .Cardcontent{
+    height: 60px;
+  }
+  .cardheader{ 
+  height: 80px;
+  padding-top: 20px; 
+  }
+  .contactbtn{
+      height: 40px;
+      width: 20%;
+      border-radius: 20%;
+      color: #1e70bf;
+      font-size: 15px;
+  }
+  .the_tobC{
+    height: 1440px ;
+  }

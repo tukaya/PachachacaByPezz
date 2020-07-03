@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
  const Nav = () => {
     return (
         <div className='ulN'>
-            <ul >
+            <ul id='thetop' >
                 <li><Link className='ulLN' to='/'>Home</Link></li>
                 <li><Link className='ulLN' to='/blog'>Blog</Link></li>
                 <li><Link className='ulLN' to='/about'>About</Link></li>
