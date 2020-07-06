@@ -3,20 +3,23 @@
 @import './css/About.css';
 @import './css/Nav.css';
 @import './css//Home.css';
+<<<<<<< HEAD
 @import './css//Donate.css';
+=======
+>>>>>>> cb721dbdf6ef4af66cf7d29813157a84476a7e33
 @import './css/Activities.css';
 @import './css/Footer.css';
 @import './css/Blog.css';
 @import './css/VisionMission.css';
 @import './css/Contact.css';
-@import './css/Album.css';
-@import './css/Donate.css';
-body{
-  background-color: white;
-  margin: 0 auto;
-  width: 90%;
-}
+@import './css//Donate.css';
 
-*{
-  /* border: 2px solid red; */
-}
+
+
+/* #root{
+  margin: 0 auto;
+} */
+
+/* *{
+  border: 2px solid red;
+} */

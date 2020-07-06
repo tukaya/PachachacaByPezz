@@ -1,40 +1,44 @@
 
 .maindivF{
-  clear: both;
+  /* margin-bottom: 0 ; */
   width: 100%;
-  box-sizing: border-box;
-  font-size: 1.1em;
   text-align: center;
-  margin-top: 20px; 
-  border: 10px  solid rgba(148, 148, 184,0.8);
-  border-top-left-radius: 200px 50px;
-  border-top-right-radius: 200px 50px;
+  margin-top: 5%; 
+  color: white;
+  background-color:rgba(15, 15, 17, 0.945);
+  clear: both;
+  padding-top: 3% ;
+  /* border: 2px solid red; */
 }
 
+.maindivF p{
+  color: gray;
+}
 .maindivF h6{
-  vertical-align: bottom;
+  padding-top: 2%;
+  color: gray;
   margin: 0 auto;
-  margin-top: 30px ;
 }
-.Icon{
-    background-color: gray !important;
-    border-radius: 50%;
-    color: black;
-  }
-  .SOSIAL{
-    width: 33%;
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    /* text-align: center; */
-    margin-top: 10px ;
-  }
-  .SOSIAL :first-child{
-    text-decoration: underline;
-  }
-  /* .maindivF{
 
-} */
+.Icon{
+  background-color: black ;
+  color: gray;
+}
+.SOSIAL{
+  width: 15%;
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+}
+.SOSIAL_border{
+  width: 30%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.SOSIAL span{
+  display: block;
+}
+ 
 .maindivF_btn{
   background:#42415c;
   width: 3rem;

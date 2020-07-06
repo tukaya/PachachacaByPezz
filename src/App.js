@@ -12,8 +12,7 @@ import Albums from './components/sections/albums/Albums';
 import Contact from './components/sections/contact/Contact';
 import Donation from './components/sections/donation/Donate';
 import Header from './components/header/Header';
-import Footer from './components/footer/Footer'
-
+import Footer from './components/footer/Footer';
 
 
  const App = () => {
