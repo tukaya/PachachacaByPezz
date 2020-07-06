@@ -11,7 +11,7 @@ import Paper from '@material-ui/core/Paper'
             <div className="ui menu ulN ">
                 <div className="item"><Link to='/'>Home</Link></div>
                 <div className="item"><Link to='/blog'>Blog</Link></div>
-                <div className="item"><Link to='/about'>About</Link></div>
+                <div className="item"><Link to='/about'>Who are we</Link></div>
                 <div className="item"><Link to='/vision-mission'>Vision & Mission</Link></div>
                 <div className="item"><Link to='/albums'>Albums</Link></div>
                 <div className="item"><Link to='/contact'>Contact</Link></div>

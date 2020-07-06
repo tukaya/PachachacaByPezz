@@ -20,7 +20,7 @@ const ImageExampleGroupSize = () => (
       <Image src={logoyoreem} />
       <Image src={Annamuntz} />
     </Image.Group>
-    <Divider hidden />
+    {/* <Divider hidden /> */}
     <Image.Group size='tiny'>
       <Image src={Hofstee} />
       <Image src={Marina} />
