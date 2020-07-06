@@ -9,7 +9,8 @@
 @import './css/Blog.css';
 @import './css/VisionMission.css';
 @import './css/Contact.css';
-
+@import './css/Album.css';
+@import './css/Donate.css';
 body{
   background-color: white;
   margin: 0 auto;

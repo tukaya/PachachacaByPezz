@@ -1,6 +1,6 @@
 import React from 'react';
 import { Embed } from 'semantic-ui-react';
-import Videoabout from '../../images/About/p1.JPG';
+import Videoabout from '../../images/About/p111.jpg';
 
 const EmbedExampleIframe = () => (
  <div className='styleDo'>

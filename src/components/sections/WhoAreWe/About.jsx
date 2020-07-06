@@ -1,10 +1,10 @@
 
 import React, { Component } from 'react';
-import OurTeam from '../about/OurTeam';
-import AboutUs from '../about/AboutUs';
-import VideoAbout from '../about/VideoAbout';
+import OurTeam from './OurTeam';
+import AboutUs from './AboutUs';
+import VideoAbout from './VideoAbout';
 import { Container } from 'semantic-ui-react';
-import Logo from '../about/Logo';
+import Logo from './Logo';
 
 class About extends Component {
   render() {

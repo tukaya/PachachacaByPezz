@@ -4,6 +4,7 @@ import { Container } from 'semantic-ui-react';
 import Form from '../donation/Form';
 import FirstContent from '../donation/FirstContent';
 import SecondContent from '../donation/SecondContent';
+import VideoDo from '../donation/VideoDo';
 
 class About extends Component {
   render() {
@@ -11,6 +12,7 @@ class About extends Component {
         <Container style={{marginTop:'80px'}} className='imgA'>
           <Form />
           <FirstContent />
+          <VideoDo />
           <SecondContent />
         </Container>
     );
