@@ -28,18 +28,13 @@
 }
 .imgH2{
     margin: 0 auto; 
-    /* margin-top: 20px; */
     position: relative;
     width: 80%;
     background-image: url(../components/images/d.jpg); 
     background-size: cover;
-    /* vertical-align: middle; */
-    /* justify-content: center;
-    align-items: center; */
     line-height: 1.em;
     padding: 0.05%;
     box-shadow: 8px 8px 8px 8px rgba(148, 148, 184,0.8);
-    /* border: 5px solid red; */
 } 
 .imgH2:before {
     content: "";
@@ -49,7 +44,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px; 
-    opacity: 0.9;
+    /* opacity: 0.9; */
     width: 100%;
     margin: 0 auto;
     

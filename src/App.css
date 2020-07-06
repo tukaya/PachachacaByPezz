@@ -8,17 +8,14 @@
 @import './css/Blog.css';
 @import './css/VisionMission.css';
 @import './css/Contact.css';
-
-
-body{
-  
-  margin: 0 auto;
-  width: 90%;
-}
 @import './css//Donate.css';
 
-body{
-  background-color: white;
+
+
+/* #root{
   margin: 0 auto;
-  width: 90%;
-}
+} */
+
+/* *{
+  border: 2px solid red;
+} */
