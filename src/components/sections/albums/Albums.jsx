@@ -1,21 +1,4 @@
 
-
-// import React, { Component } from 'react';
-
-// class Albums extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <h2>Albums page</h2>
-//         <p>This is Albums page.</p>
-//       </div>
-//     );
-//   }
-// }
-
-// export default Albums;
-
-
 import React, { Component } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -45,43 +28,94 @@ import { Container, Image ,Divider,Grid,Segment} from 'semantic-ui-react';
         return (
             <Container fluid>
               <AlbumSlide />
-                              <Grid stackable columns={2}>
+                              <Grid stackable columns={3}>
                                 <Grid.Column>
                                   <Segment>
                                     <Image src={p4} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p5} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p6} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p7} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p8} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p9} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p10} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p11} />
                                   </Segment>
                                 </Grid.Column>
                                 <Grid.Column>
                                   <Segment>
-
                                     <Image src={p12} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p13} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p14} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p15} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p16} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p17} />
+                                  </Segment>
+                                </Grid.Column>
+                                <Grid.Column>
+                                  <Segment>
                                     <Image src={p18} />
                                   </Segment>
                                 </Grid.Column>
                               </Grid>
                 <div>
-                  <Image.Group size='large'>
+                  {/* <Image.Group size='large'>
                     <Image src={p4} />
                     <Image src={p5} />
                     <Image src={p6} />
                     <Image src={p7} />
                     <Image src={p8} />
                     <Image src={p9} />
-                  {/* </Image.Group> */}
-                  {/* <Divider hidden /> */}
-                  {/* <Image.Group size='large'> */}
+                  </Image.Group>
+                  <Divider hidden />
+                  <Image.Group size='large'>
                     <Image src={p10} />
                     <Image src={p11} />
                     <Image src={p12} />
@@ -91,7 +125,7 @@ import { Container, Image ,Divider,Grid,Segment} from 'semantic-ui-react';
                     <Image src={p16} />
                     <Image src={p17} />
                     <Image src={p18} />
-                  </Image.Group>
+                  </Image.Group> */}
                 </div>
             </Container>
         )
