@@ -8,35 +8,51 @@ import 'semantic-ui-css/semantic.min.css'
  const Footer = () => {
     return (
         <div className='maindivF'>
-            <div className='SOSIAL'>
-                <h2>SOSIAL CONTACT</h2>
-                <a href='#' target='_blank'>
-                <Icon circular className='Icon'   name='facebook' size='big'/></a>
+            <div
+             style={{ marginRight: '30% '}}
+             >
+                <div className='SOSIAL'>
+                    <h3>SOSIAL CONTACT</h3>
+                    <span> <a href='#' target='_blank'>
+                    <Icon circular className='Icon'   name='facebook' size='large'/></a></span>
+                    <span><a href='#' target='_blank'>
+                    <Icon circular className='Icon'   name='linkedin' size='large'/></a></span>
+                    <span><a href='#' target='_blank'>
+                    <Icon circular className='Icon'   name='twitter' size='large'/></a></span>
+                    
+                </div>
+                
+                <div className='SOSIAL SOSIAL_border'>
+                    <h3>ALLIES</h3>
+                    <p> Anna Muntz Foundation</p>
+                    {/* <p>Co Schippers Fund </p>
+                    <p>Hofstee Foundation </p>
+                    <p>Inmenszo </p>
+                    <p>Johanna Donk-Grote Foundation </p>
+                    <p>Johannes Foundation </p>
+                    <p>Mano BV </p>
+                    <p> Alle Beetjes Foundation </p>
+                    <p>The Lark Foundation  </p>
+                    <p> Fair Share Foundation </p>
+                    <p> Elise Spykman Foundation </p>
+                    <p> Middelbusker Stevens Foundation </p>
+                    <p> Mundo Crastino Melio Foundation </p>
+                    <p> Qbusfonds Foundation </p> */}
+                </div>
 
-                <a href='#' target='_blank'>
-                <Icon circular className='Icon'   name='linkedin' size='big'/></a>
-
-                <a href='#' target='_blank'>
-                <Icon circular className='Icon'   name='twitter' size='big'/></a>
+                <div className='SOSIAL'>
+                    <h3>CONTACT</h3>
+                    <p>CONTACT</p>
+                    <p>CONTACT</p>
+                    
+                </div>
+               
             </div>
             
-            <div className='SOSIAL'>
-                <h2>ALLIES</h2>
-                <p>ALLIES</p>
-                <p>ALLIES</p>
-                
-            </div>
-
-            <div className='SOSIAL'>
-                <h2>CONTACT</h2>
-                <p>CONTACT</p>
-                <p>CONTACT</p>
-                
-            </div>
-            <h6>Copy Right</h6>
+           
             <a id='thebottom' href="#thebottom"><button className='maindivF_btn2 maindivF_btn' >DW</button></a>
             <a href="#thetop"><button className='maindivF_btn' >UP</button></a>
-            
+            <h6>Copy Right</h6>
         </div>
     )
 }

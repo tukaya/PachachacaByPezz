@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 import Slide from '../slide/Slide';
 import Activities from './Activities'
-// import d from '../../images/d.jpg';
 
 
 
