@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AlbumSlide from '../albums/AlbumSlide';
@@ -22,18 +21,6 @@ import p18 from"../../images/Albums/p18.jpg";
 
 import { Container, Image ,Divider,Grid,Segment} from 'semantic-ui-react';
 
-=======
-class Albums extends Component {
-  render() {
-    return (
-      <div>
-        
-       
-      </div>
-    )
-  }
-}
->>>>>>> cb721dbdf6ef4af66cf7d29813157a84476a7e33
 
  class Slide extends Component {
 

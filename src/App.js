@@ -23,7 +23,7 @@ import Footer from './components/footer/Footer';
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/blog' component={Blog} />
-            <Route exact path='/Who-are-we' component={WhoAreWe} />
+            <Route exact path='/about' component={WhoAreWe} />
             <Route exact path='/vision-mission' component={VisionMission} />
             <Route exact path='/albums' component={Albums} />
             <Route exact path='/contact' component={Contact} />
