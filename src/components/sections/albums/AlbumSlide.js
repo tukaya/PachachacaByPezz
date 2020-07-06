@@ -22,7 +22,6 @@ import { Container ,Divider} from 'semantic-ui-react';
             autoplay: true,
             autoplaySpeed: 4000,
             pauseOnHover: false
-
           };
         return (
             <Container fluid styl>
