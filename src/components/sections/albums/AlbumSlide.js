@@ -20,7 +20,7 @@ import { Container ,Divider} from 'semantic-ui-react';
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 5000,
             pauseOnHover: false
           };
         return (
@@ -29,9 +29,9 @@ import { Container ,Divider} from 'semantic-ui-react';
               <Slider 
               ref={slider => (this.slider = slider)}
               {...settings} >
-                  <div ><img className='slideAlb' src={p1} alt="p1"/></div>
-                  <div ><img className='slideAlb' src={p2} alt="p2"/></div>
-                  <div ><img className='slideAlb' src={p3} alt="p3"/></div>
+                  <div ><img className='albumSlider' src={p1} alt="p1"/></div>
+                  <div ><img className='albumSlider' src={p2} alt="p2"/></div>
+                  <div ><img className='albumSlider' src={p3} alt="p3"/></div>
               </Slider>
              <Divider />
             </div> 
