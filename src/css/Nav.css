@@ -2,17 +2,21 @@
 .main_div_A{
     width: 80%;
     margin: 0 auto;
-    height: 20%;
+    /* background-color:red; */
+   
+    color:  white;
 }
-
+/* .main_div_A :nth-child(1){
+    text-align: right;
+} */
 .ulN{
-    position: relative;
-    top: 0;
-    z-index: 1; 
-    width: 100%;
+    display: inline-block;
 }
 
-.color__div_item_N{
-    color: #4183c4 !important;
-    
+.color_div_{
+    margin-top: 1%;
+}
+.div_logo{
+    display: grid;
+    grid-template-columns: auto auto;
 }
