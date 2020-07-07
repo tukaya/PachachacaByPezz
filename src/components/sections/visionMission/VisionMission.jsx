@@ -1,44 +1,34 @@
-
-
 import React from 'react';
-import Darkmode from 'darkmode-js';
-// import Darkmode from 'darkmode-js';
-// import { makeStyles } from '@material-ui/core/styles';
-// import Card from '@material-ui/core/Card';
-// import CardActionArea from '@material-ui/core/CardActionArea';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
-// import CardMedia from '@material-ui/core/CardMedia';
-// import Button from '@material-ui/core/Button';
-// import Typography from '@material-ui/core/Typography';
+import {
+  Grid,
+  Image,
+  Card,
+  Container,
+  Segment,
+  Header,
+} from 'semantic-ui-react';
 
-
-new Darkmode().showWidget();
-
-// const useStyles = makeStyles({
-//   root: {
-//     maxWidth: '100%',
-//   },
-// });
-
-export default function ImgMediaCard() {
-  // const classes = useStyles();
-
-  return (
-    <div className='divwidthV'>
-      <div>
-        <img className='widthimg'
-          src={require('./do-something-great.jpg')}
-        
-          alt='do-something-great'
-        />
-      </div>
-      <h2 style={{ textDecoration: 'underline' }}>Mission  Vision</h2>
+const GridExampleColumnWidth = () => (
+  <div
+    style={{
+      paddingLeft: '10em',
+      paddingRight: '10em',
+      paddingTop: '3em',
+      fontFamily: 'Optima',
+      fontSize: '1.2rem',
+      textAlign: 'justify',
+    }}
+  >
+    <Segment>
+      <Header as='h1'>Vision & Mission</Header>
+      <Image
+        src={'https://i.postimg.cc/L6cQxmpY/do-something-great.jpg'}
+        size='massive'
+      />
+      <br />
+      <Header as='h2'>Pachachaca</Header>
       <p
-        style={{
-          fontSize: '1.3em',
-          textAlign: 'justify',
-        }}
+        style={{ fontFamily: 'Optima', fontSize: '1.8rem', paddingTop: '20px' }}
       >
         We work from the vision that everything must be done to improve the
         household situation of children who are in social risk situations.
@@ -56,7 +46,6 @@ export default function ImgMediaCard() {
         contribute to Pachachaca, for example by helping in the garden or
         cooking.
         <br />
-        <br />
         All Pachachaca activities contribute to improving the life of our
         children. The goal of the Pachachaca project is: "Providing educational
         support, contributing to a safe living environment and an integrated
@@ -65,6 +54,19 @@ export default function ImgMediaCard() {
         behavior in their daily life and living environment. Ultimately, they
         must be able to become part of society as full citizens".
       </p>
-    </div>
-  );
-}
+      <Header as='h2'>Yoreem Foundation</Header>
+      <p
+        style={{ fontFamily: 'Optima', fontSize: '1.8rem', paddingTop: '20px' }}
+      >
+        We support projects that we trust. And we only have trust if we know
+        project are thought through and contribute to an integral, long term
+        development in that area. They have to offer perspective on a decent
+        life. Economic development is important, but we can only achieve that
+        when we make good education, infrastructure and health care available
+        for all.
+      </p>
+    </Segment>
+  </div>
+);
+
+export default GridExampleColumnWidth;
