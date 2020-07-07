@@ -1,11 +1,22 @@
-.slideAlb {
-    width: 1370px;
-    height: 630px;
+.albumSlider {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto; 
 }
 
-/* img:hover {
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5); 
+.albumImage {
+    -webkit-box-shadow: 4px -2px 12px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px -2px 12px 6px rgba(0,0,0,0.75);
+    box-shadow: 4px -2px 12px 6px rgba(0,0,0,0.75);
+}
+
+.darkmode-toggle {
+    z-index: 4;
+}
+
+.albumImage:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
     z-index: 1;
-} */
+}

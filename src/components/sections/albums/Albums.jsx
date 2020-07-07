@@ -19,115 +19,95 @@ import p16 from"../../images/Albums/p16.jpg";
 import p17 from"../../images/Albums/p17.jpg";
 import p18 from"../../images/Albums/p18.jpg";
 
-import { Container, Image ,Divider,Grid,Segment} from 'semantic-ui-react';
+import { Container, Image, Grid, Segment} from 'semantic-ui-react';
 
 
  class Slide extends Component {
 
       render() {
         return (
+              <div style={{width:'80%', height:'80%',margin: '0 auto'}}>
             <Container fluid>
               <AlbumSlide />
-                              <Grid stackable columns={3}>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p4} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p5} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p6} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p7} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p8} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p9} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p10} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p11} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p12} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p13} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p14} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p15} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p16} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p17} />
-                                  </Segment>
-                                </Grid.Column>
-                                <Grid.Column>
-                                  <Segment>
-                                    <Image src={p18} />
-                                  </Segment>
-                                </Grid.Column>
-                              </Grid>
-                <div>
-                  {/* <Image.Group size='large'>
-                    <Image src={p4} />
-                    <Image src={p5} />
-                    <Image src={p6} />
-                    <Image src={p7} />
-                    <Image src={p8} />
-                    <Image src={p9} />
-                  </Image.Group>
-                  <Divider hidden />
-                  <Image.Group size='large'>
-                    <Image src={p10} />
-                    <Image src={p11} />
-                    <Image src={p12} />
-                    <Image src={p13} />
-                    <Image src={p14} />
-                    <Image src={p15} />
-                    <Image src={p16} />
-                    <Image src={p17} />
-                    <Image src={p18} />
-                  </Image.Group> */}
-                </div>
+                  <Grid stackable columns={3}>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p4} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p5} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p6} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p7} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p8} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p9} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p10} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p11} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p12} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p13} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p14} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p15} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p16} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p17} />
+                      </Segment>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Segment>
+                        <Image className='albumImage' src={p18} />
+                      </Segment>
+                    </Grid.Column>
+                  </Grid>
             </Container>
+                </div>
         )
     }     
 }
