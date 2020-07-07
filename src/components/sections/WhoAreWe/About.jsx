@@ -9,7 +9,7 @@ import Logo from './Logo';
 class About extends Component {
   render() {
     return (
-      <div style={{marginTop:'80px', textAlign:'center'}} className='imgA'>
+      <div style={{width:'80%', height:'80%',margin: '0 auto', textAlign:'center'}} className='imgA'>
         <Container>
           <div>
             <h1>Video</h1>
