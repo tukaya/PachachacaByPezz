@@ -51,7 +51,7 @@ import 'semantic-ui-css/semantic.min.css'
             
            
             <a id='thebottom' href="#thebottom"><button className='maindivF_btn2 maindivF_btn' >DW</button></a>
-            <a href="#thetop"><button className='maindivF_btn' >UP</button></a>
+            <a href="#the_logos"><button className='maindivF_btn' >UP</button></a>
             <h6>Copy Right</h6>
         </div>
     )
