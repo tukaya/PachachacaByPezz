@@ -10,6 +10,7 @@ import WhoAreWe from './components/sections/WhoAreWe/About';
 import VisionMission from './components/sections/visionMission/VisionMission';
 import Albums from './components/sections/albums/Albums';
 import Contact from './components/sections/contact/Contact';
+import Newsletter from './components/sections/Newsletter/Newsletter';
 import Donation from './components/sections/donation/Donate';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
@@ -26,8 +27,9 @@ import Footer from './components/footer/Footer';
             <Route exact path='/about' component={WhoAreWe} />
             <Route exact path='/vision-mission' component={VisionMission} />
             <Route exact path='/albums' component={Albums} />
-            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/Newsletter' component={Newsletter} />
             <Route exact path='/donation' component={Donation} />
+            <Route exact path='/contact' component={Contact} />
           </Switch>
         <Footer/>
       </BrowserRouter>

@@ -28,8 +28,9 @@ import { Link } from 'react-router-dom'
                 <div className="item"><Link to='/about'>Who are we</Link></div>
                 
                 <div className="item"><Link to='/albums'>Photos</Link></div>
-                <div className="item"><Link to='/contact'>Contact</Link></div>
+                <div className="item"><Link to='/Newsletter'>Newsletter</Link></div>
                 <div className="item"><Link to='/donation'>Donation</Link></div>
+                <div className="item"><Link to='/contact'>Contact</Link></div>
                 
             </div>  
         </div>
