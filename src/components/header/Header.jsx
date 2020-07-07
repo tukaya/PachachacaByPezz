@@ -9,7 +9,7 @@ import Nav from './Nav'
 
   render() {
     return (
-      <div>
+      <div className="main_div_HE ">
         <Nav/>
       </div>
     )
