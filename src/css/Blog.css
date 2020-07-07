@@ -1,5 +1,40 @@
-.widthblog{
-    width: 80%;
-    background-color: red;
-    height: 500px;
+.divBlog {
+  margin: 0 auto;
+  margin-top: 4%;
+  padding: 0.5%;
+  padding-left: 30px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 10px rgba(148, 148, 184, 0.8);
+  -webkit-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184, 0.8);
+  -moz-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184, 0.8);
+}
+.hBlog {
+  font-family: Optima, Helvetica, sans-serif;
+  font-size: 3.2rem;
+  text-align: center;
+}
+.hBlogBody {
+  font-family: Optima, Helvetica, sans-serif;
+  font-size: 3.2rem;
+  text-align: left;
+}
+.pBlog {
+  font-family: Optima, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  text-align: left;
+}
+.gridBlog {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.colBlog {
+  text-align: justify;
+  font-size: 1.6rem;
+}
+.imgBlog {
+  width: 200px;
+  height: 150px;
 }
