@@ -12,15 +12,16 @@ import NewsletterSeven from './NewsletterSeven';
 class About extends Component {
   render() {
     return (
-        <Container>
-            <NewsletterFirst />
-            <NewsletterSecond />
-            <NewsletterThird />
-            <NewsletterFourth />
-            <NewsletterFive />
-            <NewsletterSix />
-            <NewsletterSeven />
-        </Container>
+      <div className='main_div_Newsletter'>
+        <NewsletterFirst />
+        <NewsletterSecond />
+        <NewsletterThird />
+        <NewsletterFourth />
+        <NewsletterFive />
+        <NewsletterSix />
+        <NewsletterSeven />
+      </div>
+        
     );
   }
 }

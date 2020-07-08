@@ -8,6 +8,7 @@
   background-color:rgba(15, 15, 17, 0.945);
   clear: both;
   padding-top: 3% ;
+  box-sizing: border-box;
   /* border: 2px solid red; */
 }
 
@@ -19,35 +20,34 @@
   color: gray;
   margin: 0 auto;
 }
+.maindivF h3{
+  word-spacing: 10px;
+}
 
-.Icon{
-  background-color: black ;
+.sossial_icon{
+  background:black;
   color: gray;
 }
+.btn_icon{
+  background:#100f2c;
+  color: white;
+}
 .SOSIAL{
-  width: 15%;
+  width: 25%;
   box-sizing: border-box;
   vertical-align: top;
   display: inline-block;
+  box-sizing: border-box;
 }
 .SOSIAL_border{
-  width: 30%;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
-}
-.SOSIAL span{
-  display: block;
+  /* border-left: 2px solid white;
+  border-right: 2px solid white; */
 }
  
 .maindivF_btn{
-  background:#42415c;
-  width: 3rem;
-  height: 3rem;
   position: fixed;
-  border-radius: 50%;
-  border: none;
-  right: 32px;
-  bottom: 82px;
+  right: 30px;
+  bottom: 120px;
   left: unset;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -55,14 +55,10 @@
   justify-content: center;
   align-items: center;
 }
-.maindivF_btn2{background: #42415c;
-  width: 3rem;
-  height: 3rem;
+.maindivF_btn2{
   position: fixed;
-  border-radius: 50%;
-  border: none;
-  right: 82px;
-  bottom: 32px;
+  right: 30px;
+  bottom: 76px;
   left: unset;
   cursor: pointer;
   transition: all 0.5s ease;
