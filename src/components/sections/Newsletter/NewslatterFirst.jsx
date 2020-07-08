@@ -1,25 +1,23 @@
+
 import React from 'react'
-import { Card, Icon } from 'semantic-ui-react'
+import { Card, Icon, Image } from 'semantic-ui-react'
+import nieuwbriefJan from '../../images/Newsletter/nieuwbriefJan.JPG';
+import nieuwBriefOne from '../../Pdffile/nieuwsbriefJan.pdf';
 
 const CardExampleImageCard = () => (
-  <div className='styleDo'>
+  <div className='newsletterStyle'>
       <Card fluid color='teal'>
     <Card.Content>
-      <Card.Header>Newsletter September 2019</Card.Header>
-      <Card.Meta>Dear reader,</Card.Meta>
-      <Card.Description>
-        We appreciate your involvement in our project, thank you for that.
-        I would also like to pay attention to a change of board members within the Yoreem foundation.
-        Judith Ravestein, who has been working as a secretary at the Yoreem foundation for many years, has decided that it is time to hand over the baton. She has made a huge contribution to Pachachaca as well as to Yoreem Foundation with her involvement and hard work, and we are very grateful for this. We would like to express our thanks in this way.
-        Myself, Daphne Hebing, will take over her duties. I work for the Hoedje van Papier foundation in Rotterdam, where I met Liesbeth Kerstens and Pavel Marmanillo, initiators of Pachachaca.
-        As a cultural anthropologist I have a lot of experience with, and interest in, projects across borders. I was therefore honored to be able to take over the duties of Judith Ravestein.
-        I look forward to staying in touch with you and am open to any questions and suggestions.
-        I hope you will read the newsletter with interest, and if you prefer not to receive a newsletter, I would also like to hear that.
-         For further information about the tax consequences of donations by both individuals and companies, please contact Wim Wesselo (wwesselo@outlook.com or 06-51147924).
+      <Card.Header>Pachachaca</Card.Header>
+      <Card.Meta>nieuwsbrief - januari 2020</Card.Meta>
+      {/* <Image src={nieuwbriefJan} /> */}
+      <Card.Description style={{columns: '50px 3'}}>
       </Card.Description>
+      <embed  src={nieuwBriefOne} width="100%" height="700"></embed >
     </Card.Content>
+    <Image.Group style={{textAlign:'center'}} size='medium'>
+    </Image.Group>
     <Card.Content extra>
-        <h3>Daphne Hebing <br />Yoreem Foundation</h3>
         <a>
         <Icon name='heart' />
       </a>

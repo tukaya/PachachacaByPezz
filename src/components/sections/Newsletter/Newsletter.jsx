@@ -2,16 +2,16 @@
 import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react';
 import NewsletterFirst from './NewslatterFirst'
-import NewslatterSecond from './NewsletterSecond';
+import NewsletterSecond from './NewsletterSecond';
 
 class About extends Component {
   render() {
     return (
-        <Container>
-            <NewslatterSecond />
-            <NewsletterFirst />
-            <NewslatterSecond />
-        </Container>
+      <div className='main_div_Newsletter'>
+        <NewsletterFirst />
+        <NewsletterSecond />
+      </div>
+        
     );
   }
 }

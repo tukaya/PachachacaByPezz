@@ -24,7 +24,7 @@ import { Container ,Divider} from 'semantic-ui-react';
             pauseOnHover: false
           };
         return (
-            <Container fluid styl>
+            <Container fluid>
             <div>
               <Slider 
               ref={slider => (this.slider = slider)}

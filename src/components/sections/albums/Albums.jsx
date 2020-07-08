@@ -22,12 +22,11 @@ import p18 from"../../images/Albums/p18.jpg";
 import { Container, Image, Grid, Segment} from 'semantic-ui-react';
 
 
- class Slide extends Component {
-
-      render() {
-        return (
-              <div style={{width:'80%', height:'80%',margin: '0 auto'}}>
-            <Container fluid>
+class Slide extends Component {
+  render() {
+    return (
+      <div style={{margin: '0 auto'}}>
+            <Container>
               <AlbumSlide />
                   <Grid stackable columns={3}>
                     <Grid.Column>
