@@ -15,13 +15,22 @@ const GridExampleColumnWidth = () => (
       }}
     >
       Vision & Mission
+      <hr />
     </Header>
     <Image
+      className='imgVision'
       src={'https://i.postimg.cc/L6cQxmpY/do-something-great.jpg'}
       // size='massive'
     />
     <br />
-    <Header className='hVisionBody' as='h1'>
+    <Header
+      style={{
+        fontFamily: 'Optima, Helvetica, sans-serif',
+        fontSize: '3rem',
+        textAlign: 'center',
+      }}
+      as='h1'
+    >
       Pachachaca
     </Header>
     <p className='pVision'>
@@ -48,7 +57,14 @@ const GridExampleColumnWidth = () => (
       behavior in their daily life and living environment. Ultimately, they must
       be able to become part of society as full citizens".
     </p>
-    <Header className='hVisionBody' as='h1'>
+    <Header
+      style={{
+        fontFamily: 'Optima, Helvetica, sans-serif',
+        fontSize: '3rem',
+        textAlign: 'center',
+      }}
+      as='h1'
+    >
       Yoreem Foundation
     </Header>
     <p className='pVision'>
