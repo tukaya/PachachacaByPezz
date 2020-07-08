@@ -14,36 +14,32 @@ class Home extends Component {
       <div className='minedivH'>
         <Slide/>
 
-        <div className='poTH'>
-          <h2>You can make difference</h2>
-          <hr/>
-          <p>¡Vivir en Pachachaca fue una 
-            experiencia increíble! Todo ese tiempo me sentí seguro y tranquilo;
-            y eso me motivó a seguir adelante y ponerme de pie, así como a crecer como
-            una persona independiente.
-            Viví en Pachachaca casi diez años, y ahora que vivo en 
-            Lima extraño la tranquilidad. </p>
-        </div>
+        {/* <div className='div_Pach'>
+                    <p>Pachachaca</p>
+                    <hr/>
+                    <p>You can make difference  ,,
+                    
+                        Lima extraño la tranquilidad. </p>
+        </div> */}
+            
         
-        <div  className='imgH2'>
-          <div className='chailddiv'>
+        <div  className='div_WELCOM'>
             <h1>WELCOM TO PACHACHACA</h1>
             <hr/>
-            <h2>Pachachaca is a program  for educational guidance and a community center located in the Andes of Calca,
+            <h3>Pachachaca is a program  for educational guidance and a community center located in the Andes of Calca,
                Peru.<br/> Pachachaca is a name that combines two words from the Andean culture in the indigenous Quechua  
                language: Pacha means Earth, Chaca means Bridge. <br/>
                Pachachaca can therefore be interpreted as a bridge over the world,
-                and a bridge between the children of Peru and the global community.</h2>
-            <br/>
-            <h2>Pachachaca also has a deeper meaning within the world view of the Andean people. <br/>
+                and a bridge between the children of Peru and the global community.</h3>
+            <h3>Pachachaca also has a deeper meaning within the world view of the Andean people. <br/>
               Pacha, or the Earth, is considered‘a living being’while Chaca, or Bridge, expresses Unity. 
-              Hence, Pachachaca also means<br/> "Unity of Everything Living on Earth"</h2>
+              Hence, Pachachaca also means<br/> "Unity of Everything Living on Earth"</h3>
+              <p>WELCOM TO PACHACHACA</p>
               <Button.Group size='huge'>
                 <Button ><Link>DONATE NOW</Link></Button>
                 <Button.Or />
-                <Button><Link>HELP US</Link></Button>
+                <Button><Link to='/contact'>Contact Us</Link></Button>
               </Button.Group>
-          </div>
         </div >
         <Activities/>
       </div>
