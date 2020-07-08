@@ -2,9 +2,8 @@
 import React, { Component } from 'react';
 import OurTeam from './OurTeam';
 import AboutUs from './AboutUs';
-import VideoAbout from './VideoAbout';
 import { Container, Divider } from 'semantic-ui-react';
-import Logo from './Logo';
+// import Logo from './Logo';
 
 class About extends Component {
   render() {
@@ -14,13 +13,12 @@ class About extends Component {
           <div>
             <h1>About us</h1>
             <Divider />
-              <VideoAbout />
               <AboutUs />
-                <div  style={{marginTop:'50px'}}>
-                 {/* <h1 className='shadow'>Our Team</h1> */}
-                </div>
+                {/* <div  style={{marginTop:'50px'}}>
+                 <h1 className='shadow'>Our Team</h1>
+                </div> */}
               <OurTeam /> 
-              <Logo />
+              {/* <Logo /> */}
           </div>
         </Container>
       </div>

@@ -9,9 +9,9 @@ img.ui.image {
     width: 80%;
     height: auto;
     text-align: center;
-    margin: 30px auto;
-    padding-top: 30px;
+    margin: 10px auto;    
     border-radius: 10px;
+    font-family: sans-serif;
 }
 
 .aboutshadow{
@@ -19,4 +19,9 @@ img.ui.image {
     -webkit-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
     -moz-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
     margin-top: 40px;
+}
+
+.ourteam {
+    padding-top: 30px;
+    text-align: center;
 }
