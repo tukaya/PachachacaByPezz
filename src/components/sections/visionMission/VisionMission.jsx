@@ -1,9 +1,19 @@
 import React from 'react';
-import { Image, Segment, Header } from 'semantic-ui-react';
+import { Image, Header } from 'semantic-ui-react';
 
 const GridExampleColumnWidth = () => (
   <div className='div-vision'>
-    <Header className='hVision' as='h1'>
+    <Header
+      className='hVisionTop'
+      as='h1'
+      style={{
+        fontFamily: 'Optima, Helvetica, sans-serif',
+        fontSize: '3.2rem',
+        paddingTop: '2%',
+        textAlign: 'center',
+        letterSpacing: '0.8rem',
+      }}
+    >
       Vision & Mission
     </Header>
     <Image
@@ -11,7 +21,7 @@ const GridExampleColumnWidth = () => (
       // size='massive'
     />
     <br />
-    <Header className='hVision' as='h1'>
+    <Header className='hVisionBody' as='h1'>
       Pachachaca
     </Header>
     <p className='pVision'>
@@ -38,7 +48,7 @@ const GridExampleColumnWidth = () => (
       behavior in their daily life and living environment. Ultimately, they must
       be able to become part of society as full citizens".
     </p>
-    <Header className='hVision' as='h1'>
+    <Header className='hVisionBody' as='h1'>
       Yoreem Foundation
     </Header>
     <p className='pVision'>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Image, Grid, Segment, Header } from 'semantic-ui-react';
+import { Grid, Header } from 'semantic-ui-react';
 import Darkmode from 'darkmode-js';
 new Darkmode().showWidget();
 
@@ -42,7 +42,17 @@ class Blog extends Component {
   render() {
     return (
       <div className='divBlog'>
-        <Header className='hBlog' as='h1'>
+        <Header
+          className='hBlog'
+          as='h1'
+          style={{
+            fontFamily: 'Optima, Helvetica, sans-serif',
+            fontSize: '3.2rem',
+            paddingTop: '2%',
+            textAlign: 'center',
+            letterSpacing: '0.8rem',
+          }}
+        >
           Our Blog Posts
         </Header>
         <br />
@@ -50,7 +60,7 @@ class Blog extends Component {
           return (
             <Grid className='gridBlog'>
               <Grid.Column width={4}>
-                <img className='imgBlog' src={photos[index]} />
+                <img className='imgBlog' alt='image blog' src={photos[index]} />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header className='hBlogBody' as='h2'>
