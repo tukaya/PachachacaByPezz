@@ -27,14 +27,22 @@ import c from"../../images/c.jpg"
           };
         return (
             
-            <div >
+            <div style={{width:'80%',margin:'auto'}}>
+                
             <Slider 
             ref={slider => (this.slider = slider)}
             {...settings} >
-                <div ><img className='widH' src={a} alt="a"/></div>
-                <div ><img className='widH' src={b} alt="b"/></div>
-                <div ><img className='widH' src={c} alt="c"/></div>
+                <img className='widH' src={a} alt="a"/>
+                <img className='widH' src={b} alt="b"/>
+                <img className='widH' src={c} alt="c"/>
+                
             </Slider>
+            <div className='div_Pach'>
+                <p>Pachachaca</p>
+                <hr/>
+                <p>You can make difference  ,,
+                Lima extraño la tranquilidad. </p>
+            </div>
             </div> 
         )
     }     

@@ -22,12 +22,10 @@ import c from '../images/Logo/c.png'
                 </div>
                 <div style={{textAlign: 'right'}} className="color_div_ ulN">
                     
-                    <p className="ulN"> <a href='#' target='_blank'>
+                    <p className="ulN"> <a href='https://www.facebook.com/PachachacaCalca' target='_blank'>
                     <Icon circular className='sossial_icon'   name='facebook' size='large'/></a></p>
-                    <p className="ulN"><a href='#' target='_blank'>
-                    <Icon circular className='sossial_icon'   name='linkedin' size='large'/></a></p>
-                    <p className="ulN"><a href='#' target='_blank'>
-                    <Icon circular className='sossial_icon'   name='twitter' size='large'/></a></p>
+                    <p className="ulN"><a href='https://www.instagram.com/pachachaca.calca/' target='_blank'>
+                    <Icon circular className='sossial_icon'   name='instagram' size='large'/></a></p>
                     <br/>
                     <Button compact><Link to='/contact'>Contact Us</Link></Button>
                 </div>
@@ -42,27 +40,11 @@ import c from '../images/Logo/c.png'
             <div className="color_div_ ">
                 <div  className="ui menu ">
                     <div className="item"><Link to='/'>Home</Link></div>
-                        <div className="ui simple dropdown item ">
-                            <Link >Programs</Link>
-                            <i className="dropdown icon"></i>
-                            <div className="menu">
-                                <div className="item "><Link to='/blog'>Blog</Link></div>
-                                <div className="item "><Link to='/Program1'>Program1</Link></div>
-                                <div className="item "><Link  to='/Program2'>Program2 </Link></div>
-                            </div>
-                        </div>
+                    <div className="item"><Link to='/blog'>Programs</Link></div>
                     <div className="item"><Link to='/vision-mission'>Vision & Mission</Link></div>
                     <div className="item"><Link to='/about'>Who are we</Link></div>
                     <div className="item"><Link to='/albums'>Photos</Link></div>
-                    <div className="ui simple dropdown item ">
-                            <Link >Newsletter & Yearly Reports</Link>
-                            <i className="dropdown icon"></i>
-                            <div className="menu">
-                                <div className="item "><Link to='/Newsletter'>Newsletter</Link></div>
-                                <div className="item "><Link>Choice 2</Link></div>
-                                <div className="item "><Link>Choice 3</Link></div>
-                            </div>
-                        </div>
+                    <div className="item"><Link to='/Newsletter'>Newsletter</Link></div>
                     <div className="item"><Link to='/donation'>Donation</Link></div>
                 </div>  
             </div>

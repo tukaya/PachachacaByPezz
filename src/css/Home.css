@@ -1,68 +1,52 @@
 
-.widH{
-    width: 80%;
-    margin: 0 auto; 
-}
+
+
 .minedivH{
-    margin-top: 0 auto;
-}
-.chailddiv{
-    margin: 0 auto; 
-    position: relative;
-    text-align: center;
-    /* word-spacing: 30px; */
-    width: 50%;
-}
-.poTH{
+    width: 100%;
     margin: 0 auto;
-    position: absolute;
-    left: 15%;
-    top: 45%;
-    z-index: 1;
-    width: 30%;
-    background-color: rgba(148, 148, 184,0.6);
-    border-radius: 33px;
-    text-align: justify;
-    text-align-last: center;
-    padding: 5px;
+    font-size: 1.8em;
 }
-.imgH2{
+.div_Pach{
+    font-family: monospace;
+    /* transform: scaleX(0.884853); */
+    font-size:50px;
+    /* color: white; */
+    margin: 0 auto;
+    left: 5%;
+    /* top: 1%; */
+    width: 30%;
+    text-align: center;
+    text-align-last: center;
+    display: inline-block;
+}
+.div_WELCOM{
     margin: 0 auto; 
-    position: relative;
-    width: 80%;
-    /* background-image: url(../components/images/d.jpg);  */
-    background-size: cover;
-    padding: 0.05%;
-    border-radius: 10px;
     margin-top:  4% ;
+    border-radius: 10px;
     box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
     -webkit-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
     -moz-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
+    width: 80%;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    /* background-image: url(../components/images/d.jpg);  */
+    /* background-size: cover; */
+    padding: 0.05%;
 } 
-.imgH2:before {
-    content: "";
-    /* background-color: rgba(85, 85, 92, 0.5); */
+.div_WELCOM:before {
+    /* content: "";
+    background-color: rgba(85, 85, 92, 0.5);
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px; 
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
-
-.imgH2 button{
-    background-color: rgba(148, 148, 184,0.8);
-    border-radius: 50%;
-    border: none;
-    padding: 0.5%;
-    width: 25%;
-    line-height: 1.5em;
-}
-.imgH2 h1{
+.div_WELCOM h1{
     word-spacing: 50px;
-    font-size: 3em;
-    margin-top: 2%;
     /* margin-bottom: 20%; */
 }
 .chailddiv h2:nth-child(3){

@@ -1,6 +1,5 @@
 
 .maindivF{
-  /* margin-bottom: 0 ; */
   width: 100%;
   text-align: center;
   margin-top: 5%; 
@@ -9,14 +8,19 @@
   clear: both;
   padding-top: 3% ;
   box-sizing: border-box;
-  /* border: 2px solid red; */
 }
 
 .maindivF p{
+
   color: gray;
 }
+.maindivF p span{
+  font-size: 1.3em;
+  color: white;
+  opacity: 0.8;
+}
 .maindivF h6{
-  padding-top: 2%;
+  padding-top: 1%;
   color: gray;
   margin: 0 auto;
 }
@@ -33,15 +37,27 @@
   color: white;
 }
 .SOSIAL{
-  width: 25%;
+  width: 20%;
   box-sizing: border-box;
   vertical-align: top;
   display: inline-block;
   box-sizing: border-box;
 }
 .SOSIAL_border{
-  /* border-left: 2px solid white;
-  border-right: 2px solid white; */
+  position: relative;
+  
+}
+.SOSIAL_border:before{
+  content: "";
+  height: 80%;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+  border-left: 2px solid white;
+  border-right: 2px solid white;
 }
  
 .maindivF_btn{
