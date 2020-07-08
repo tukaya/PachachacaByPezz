@@ -54,15 +54,7 @@ import c from '../images/Logo/c.png'
                     <div className="item"><Link to='/vision-mission'>Vision & Mission</Link></div>
                     <div className="item"><Link to='/about'>Who are we</Link></div>
                     <div className="item"><Link to='/albums'>Photos</Link></div>
-                    <div className="ui simple dropdown item ">
-                            <Link >Newsletter & Yearly Reports</Link>
-                            <i className="dropdown icon"></i>
-                            <div className="menu">
-                                <div className="item "><Link to='/Newsletter'>Newsletter</Link></div>
-                                <div className="item "><Link>Choice 2</Link></div>
-                                <div className="item "><Link>Choice 3</Link></div>
-                            </div>
-                        </div>
+                    <div className="item"><Link to='/Newsletter'>Newsletter & Yearly Reports</Link></div>
                     <div className="item"><Link to='/donation'>Donation</Link></div>
                 </div>  
             </div>

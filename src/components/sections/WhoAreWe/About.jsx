@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import OurTeam from './OurTeam';
 import AboutUs from './AboutUs';
 import VideoAbout from './VideoAbout';
-import { Container } from 'semantic-ui-react';
+import { Container, Divider } from 'semantic-ui-react';
 import Logo from './Logo';
 
 class About extends Component {
@@ -12,14 +12,12 @@ class About extends Component {
       <div className='imgA'>
         <Container>
           <div>
-            <h1 className='shadow'>Video</h1>
+            <h1>About us</h1>
+            <Divider />
               <VideoAbout />
-                <div className='shadow'>
-                  <h1>About us</h1>
-                </div>
               <AboutUs />
                 <div  style={{marginTop:'50px'}}>
-                 <h1 className='shadow'>Our Team</h1>
+                 {/* <h1 className='shadow'>Our Team</h1> */}
                 </div>
               <OurTeam /> 
               <Logo />
