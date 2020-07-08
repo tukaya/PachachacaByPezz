@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import OurTeam from './OurTeam';
 import AboutUs from './AboutUs';
 import VideoAbout from './VideoAbout';
-import { Container } from 'semantic-ui-react';
+import { Container, Divider } from 'semantic-ui-react';
 import Logo from './Logo';
 
 class About extends Component {
@@ -13,6 +13,7 @@ class About extends Component {
         <Container>
           <div>
             <h1>About us</h1>
+            <Divider />
               <VideoAbout />
               <AboutUs />
                 <div  style={{marginTop:'50px'}}>
