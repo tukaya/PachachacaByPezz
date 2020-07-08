@@ -2,12 +2,12 @@ import React from 'react'
 import { Card, Icon } from 'semantic-ui-react'
 
 const CardExampleImageCard = () => (
-  <div className='styleDo'>
+  <div className='styleDonate'>
       <Card fluid color='teal'>
     <Card.Content>
       <Card.Header>When is your gift tax deductible?</Card.Header>
       <Card.Meta>Donate once</Card.Meta>
-      <Card.Description>
+      <Card.Description style={{columns: '50px 2'}}>
          The tax authorities recognize Yoreem as an ANBI (public benefit organization). As a result, donations to Yoreem are tax deductible, insofar as these (together with donations to other qualifying charities) exceed 1% of the joint aggregate income of you and your possible tax partner in a calendar year. The maximum amount that you can deduct is 10% of the aforementioned joint aggregate income. More information about ANBI.
          You can donate via IDEAL (see below), but of course you can also transfer an amount to our Rabobank account in other ways: NL 60 RABO 0119 4895 89, for the attention of Yoreem, stating 'donation'.
          Donating in annuity form
