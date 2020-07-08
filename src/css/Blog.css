@@ -11,7 +11,7 @@
 }
 
 .pBlog {
-  font-family: Optima, Helvetica, sans-serif;
+  font-family: sans-serif;
   font-size: 1.4rem;
   text-align: left;
   padding-left: 15%;
@@ -22,10 +22,6 @@
   width: 70%;
 }
 
-.colBlog {
-  text-align: justify;
-  font-size: 1.6rem;
-}
 .imgBlog {
   width: 200px;
   height: 250px;

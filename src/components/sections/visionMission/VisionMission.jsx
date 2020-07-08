@@ -4,32 +4,30 @@ import { Image, Header } from 'semantic-ui-react';
 const GridExampleColumnWidth = () => (
   <div className='div-vision'>
     <Header
-      className='hVisionTop'
       as='h1'
       style={{
-        fontFamily: 'Optima, Helvetica, sans-serif',
-        fontSize: '3.2rem',
-        paddingTop: '2%',
+        fontFamily: 'sans-serif',
+        // fontSize: '3.2rem',
+        // paddingTop: '2%',
         textAlign: 'center',
-        letterSpacing: '0.8rem',
+        // letterSpacing: '0.8rem',
       }}
     >
       Vision & Mission
       <hr />
     </Header>
     <Image
-      className='imgVision'
       src={'https://i.postimg.cc/L6cQxmpY/do-something-great.jpg'}
       // size='massive'
     />
     <br />
     <Header
+      as='h2'
       style={{
-        fontFamily: 'Optima, Helvetica, sans-serif',
-        fontSize: '3rem',
+        fontFamily: 'sans-serif',
+        // fontSize: '3rem',
         textAlign: 'center',
       }}
-      as='h1'
     >
       Pachachaca
     </Header>
@@ -58,12 +56,12 @@ const GridExampleColumnWidth = () => (
       be able to become part of society as full citizens".
     </p>
     <Header
+      as='h2'
       style={{
-        fontFamily: 'Optima, Helvetica, sans-serif',
-        fontSize: '3rem',
+        fontFamily: 'sans-serif',
+        // fontSize: '3rem',
         textAlign: 'center',
       }}
-      as='h1'
     >
       Yoreem Foundation
     </Header>

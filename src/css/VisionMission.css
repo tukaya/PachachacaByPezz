@@ -9,13 +9,9 @@
   -webkit-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184, 0.8);
   -moz-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184, 0.8);
 }
-.imgVision {
-  padding: 1%;
-  text-align: center;
-}
 .pVision {
-  font-family: Optima, Helvetica, sans-serif;
-  font-size: 1.6rem;
+  font-family: sans-serif;
+  /* font-size: 1.6rem; */
   text-align: justify;
   columns: 80px 2;
   gap: 3rem;
