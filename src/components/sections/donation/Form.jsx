@@ -73,7 +73,6 @@ export default class RadioExampleRadioGroup extends Component {
       <div>
           <br />
           <Label size={"large"} style={{width:'200px', height:'50px', float:'left'}}>Or please enter your own amount </Label>
-
       </div>
       <div>
            <Input type='number' size={"large"} style={{width:'200px', height:'50px', float:'left'}} onChange={this.handleChange} placeholder='enter your own amount €'/>

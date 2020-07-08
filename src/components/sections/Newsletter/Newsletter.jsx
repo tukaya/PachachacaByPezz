@@ -7,7 +7,7 @@ import NewsletterSecond from './NewsletterSecond';
 class About extends Component {
   render() {
     return (
-      <div className='main_div_Newsletter'>
+      <div style={{fontFamily:'sans-serif'}} className='main_div_Newsletter'>
         <NewsletterFirst />
         <NewsletterSecond />
       </div>

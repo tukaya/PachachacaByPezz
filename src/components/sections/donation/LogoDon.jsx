@@ -1,5 +1,5 @@
 import React from 'react'
-import { Divider, Image } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
 import Mano from '../../images/Logo/LogoMano.png';
 import Annamuntz from '../../images/Logo/Annamuntz.jpg';
 import logoyoreem from '../../images/Logo/logoyoreem.png';
@@ -19,8 +19,6 @@ const ImageExampleGroupSize = () => (
       <Image src={Logo} /> 
       <Image src={logoyoreem} />
       <Image src={Annamuntz} />
-    </Image.Group>
-    <Image.Group size='tiny'>
       <Image src={Hofstee} />
       <Image src={Marina} />
       <Image src={Weeshuis} />
