@@ -3,7 +3,7 @@ import { Embed } from 'semantic-ui-react';
 import VideoDo from '../../images/Donation/kind.jpg';
 
 const EmbedExampleIframe = () => (
- <div className='styleDo'>
+ <div className='styleDonate'>
     <Embed 
     autoplay={false}
     color='white'

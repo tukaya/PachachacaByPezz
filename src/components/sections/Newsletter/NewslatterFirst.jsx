@@ -2,12 +2,12 @@ import React from 'react'
 import { Card, Icon } from 'semantic-ui-react'
 
 const CardExampleImageCard = () => (
-  <div className='styleDo'>
+  <div className='newsletterStyle'>
       <Card fluid color='teal'>
     <Card.Content>
       <Card.Header>Newsletter September 2019</Card.Header>
       <Card.Meta>Dear reader,</Card.Meta>
-      <Card.Description>
+      <Card.Description style={{columns: '50px 2'}}>
         We appreciate your involvement in our project, thank you for that.
         I would also like to pay attention to a change of board members within the Yoreem foundation.
         Judith Ravestein, who has been working as a secretary at the Yoreem foundation for many years, has decided that it is time to hand over the baton. She has made a huge contribution to Pachachaca as well as to Yoreem Foundation with her involvement and hard work, and we are very grateful for this. We would like to express our thanks in this way.
