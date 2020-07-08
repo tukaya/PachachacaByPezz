@@ -4,15 +4,11 @@ import React, { Component } from 'react'
 import Nav from './Nav'
 
 
- class Header extends Component {
-   
 
-  render() {
-    return (
-      <div className="main_div_HE ">
+export default function Header() {
+  return (
+    <div className="main_div_HE ">
         <Nav/>
-      </div>
-    )
-  }
+    </div>
+  )
 }
-export default Header

@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Icon,Button } from 'semantic-ui-react'
 import l from '../images/Logo/l.png'
 import c from '../images/Logo/c.png'
 
@@ -16,12 +17,25 @@ import c from '../images/Logo/c.png'
                     </div>
                     <div style={{display: 'inline-block',textAlign:'center'}}>
                         <span> <img src={c} alt="logo PACHACHACA"/></span>
-                        <p>PACHACHACA</p>
+                        <p>Yoreem</p>
                     </div>
                 </div>
                 <div style={{textAlign: 'right'}} className="color_div_ ulN">
-                    <button><Link to='/contact'>Contact Us</Link></button>
+                    
+                    <p className="ulN"> <a href='#' target='_blank'>
+                    <Icon circular className='sossial_icon'   name='facebook' size='large'/></a></p>
+                    <p className="ulN"><a href='#' target='_blank'>
+                    <Icon circular className='sossial_icon'   name='linkedin' size='large'/></a></p>
+                    <p className="ulN"><a href='#' target='_blank'>
+                    <Icon circular className='sossial_icon'   name='twitter' size='large'/></a></p>
+                    <br/>
+                    <Button compact><Link to='/contact'>Contact Us</Link></Button>
                 </div>
+
+                   
+                    
+                    
+                
             </div>
             
             
@@ -33,14 +47,22 @@ import c from '../images/Logo/c.png'
                             <i className="dropdown icon"></i>
                             <div className="menu">
                                 <div className="item "><Link to='/blog'>Blog</Link></div>
-                                <div className="item "><Link>Choice 2</Link></div>
-                                <div className="item "><Link>Choice 3</Link></div>
+                                <div className="item "><Link to='/Program1'>Program1</Link></div>
+                                <div className="item "><Link  to='/Program2'>Program2 </Link></div>
                             </div>
                         </div>
                     <div className="item"><Link to='/vision-mission'>Vision & Mission</Link></div>
                     <div className="item"><Link to='/about'>Who are we</Link></div>
                     <div className="item"><Link to='/albums'>Photos</Link></div>
-                    <div className="item"></div>
+                    <div className="ui simple dropdown item ">
+                            <Link >Newsletter & Yearly reports</Link>
+                            <i className="dropdown icon"></i>
+                            <div className="menu">
+                                <div className="item "><Link></Link></div>
+                                <div className="item "><Link>Choice 2</Link></div>
+                                <div className="item "><Link>Choice 3</Link></div>
+                            </div>
+                        </div>
                     <div className="item"><Link to='/donation'>Donation</Link></div>
                 </div>  
             </div>

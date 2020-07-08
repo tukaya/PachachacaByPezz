@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 import axios from 'axios'
-import { Card,  Image ,Grid, Item} from 'semantic-ui-react'
+import { Card,  Image ,Grid, Item ,Segment} from 'semantic-ui-react'
 // import a from '../../images/a.jpg';
 
 class Activities extends Component {
@@ -60,60 +60,27 @@ class Activities extends Component {
         // console.log(this.state.test)
         // console.log(this.state.photos)
         return (
-            <div className=''>
                 <div  className='divhightA'>
                     <h2>Current Activities</h2>
                     <div className='grid_div'>
                         { this.state.test && this.state.test.map(val=>{
-                                let theclassname = val.post.id %2 !==1?  'leftdiv': 'rightdiv';
+                                // let theclassname = val.post.id %2 !==1?  'leftdiv': 'rightdiv';
                                 return(
-                                    <div className={theclassname}>
-                                         {/* <Card>
-                                            <Card.Content>
-                                                <Image
-                                                floated='right'
-                                                size='huge'
-                                                src='https://react.semantic-ui.com/images/avatar/large/steve.jpg'
-                                                />
-                                                <Card.Header>Steve Sanders</Card.Header>
-                                                <Card.Meta>Friends of Elliot</Card.Meta>
-                                                <Card.Description>
-                                                Steve wants to add you to the group <strong>best friends</strong>
-                                                </Card.Description>
-                                            </Card.Content>
-                                           
-                                            </Card> */}
-                                        
-                                            <Grid>
-                                                
-
-                                                <Grid.Column width={10}>
-                                                    <Item>
-                                                        <p>sK;JABS;kbaf;sK;JABS;kbaf;kEBs;kEBkEBF</p>
-                                                        <h3>{val.post.title} :</h3>
-                                                    </Item>
-                                            
-                                                    <Item>
-                                                        <span > in 2015</span>
-                                                    </Item>
-                                                    
-                                                    <Item className='date'>
-                                                    {val.post.body}
-                                                    </Item>
-
-                                                </Grid.Column>  
-                                                <Grid.Column width={6}>
-                                                    <Image
-                                                    floated='right'
-                                                    width='100%'
-                                                    height='100%'
-                                                    // size='huge'
-                                                    src={val.photo.url}
-                                                    />
-                                                    
-                                                </Grid.Column> 
-                                            </Grid>
-                                      
+                                    <div className='date' >
+                                        <Grid celled >
+                                            <Grid.Row >
+                                                {/* <Grid.Column width={3}>
+                                                    <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+                                                </Grid.Column> */}
+                                                <Grid.Column width={8}>
+                                                <Segment> {val.post.title}</Segment>
+                                               
+                                                </Grid.Column>
+                                                <Grid.Column width={8}>
+                                                 <Image  height='250px' src={val.photo.url}></Image> 
+                                                </Grid.Column>
+                                            </Grid.Row>
+                                        </Grid>
                                     </div>    
                                 )
                                 
@@ -121,7 +88,6 @@ class Activities extends Component {
                         }
                     </div>
                 </div>
-            </div>
         );
     }
 }
