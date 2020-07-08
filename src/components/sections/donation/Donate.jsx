@@ -9,7 +9,7 @@ import SecondContent from '../donation/SecondContent';
 class About extends Component {
   render() {
     return (
-        <Container style={{marginTop:'30px'}} className='styleDonate'>
+        <Container>
           <Form />
           <FirstContent />
           <SecondContent />

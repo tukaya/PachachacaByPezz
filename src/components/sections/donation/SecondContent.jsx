@@ -1,10 +1,11 @@
 import React from 'react'
 import { Card, Icon } from 'semantic-ui-react'
+import LogoDon from './LogoDon';
 
 const CardExampleImageCard = () => (
 <div className='styleDonate'>
-<Card fluid color='teal'>
-    <Card.Content>
+<Card fluid>
+    <Card.Content style={{columns: '50px 2'}}>
       <Card.Header>Donors</Card.Header>
       <Card.Meta>Thanks to all donors, including:</Card.Meta>
       <Card.Description>
@@ -24,6 +25,7 @@ const CardExampleImageCard = () => (
       <a herf='' target='_blank' ><Icon name='heart' color='red'/>Qbusfonds Foundation</a><br />
       </Card.Description>
     </Card.Content>
+      <LogoDon />
   </Card>
 </div>
 )

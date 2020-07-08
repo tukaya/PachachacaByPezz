@@ -11,7 +11,7 @@ export default class RadioExampleRadioGroup extends Component {
     return (
       <Container>
       <div className='styleDonate'>
-    <Card fluid color='teal'>
+    <Card fluid>
     <Card.Content>
       <Card.Header>Donate</Card.Header>
       <Card.Meta></Card.Meta>
@@ -73,7 +73,10 @@ export default class RadioExampleRadioGroup extends Component {
       <div>
           <br />
           <Label size={"large"} style={{width:'200px', height:'50px', float:'left'}}>Or please enter your own amount </Label>
-          <Input type='number' size={"large"} style={{width:'200px', height:'50px', float:'left'}} onChange={this.handleChange} placeholder='enter your own amount €'/>
+
+      </div>
+      <div>
+           <Input type='number' size={"large"} style={{width:'200px', height:'50px', float:'left'}} onChange={this.handleChange} placeholder='enter your own amount €'/>
       </div>
         </Form.Field>
       <Form.Field>
@@ -82,14 +85,14 @@ export default class RadioExampleRadioGroup extends Component {
         </Form.Field>
         <Image src={Ideal}/>
 
-      <div>
-        <Button animated>
-          <Button.Content visible>Donate</Button.Content>
-          <Button.Content hidden>
-            <Icon name='heart' color='red'/>
-          </Button.Content>
-        </Button>
-      </div>
+        <div>
+          <Button animated>
+            <Button.Content visible>Donate</Button.Content>
+            <Button.Content hidden>
+              <Icon name='heart' color='red'/>
+            </Button.Content>
+          </Button>
+        </div>
       </Form>
       </Card.Description>
     </Card.Content>
