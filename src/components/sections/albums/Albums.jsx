@@ -26,8 +26,8 @@ import { Container, Image, Grid, Segment} from 'semantic-ui-react';
 
       render() {
         return (
-              <div style={{width:'80%', height:'80%',margin: '0 auto'}}>
-            <Container fluid>
+              <div style={{margin: '0 auto'}}>
+            <Container>
               <AlbumSlide />
                   <Grid stackable columns={3}>
                     <Grid.Column>

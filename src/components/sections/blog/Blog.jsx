@@ -1,35 +1,21 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import {
-  Card,
-  Icon,
-  Image,
-  Item,
-  Grid,
-  CardGroup,
-  GridColumn,
-  GridRow,
-  Segment,
-  Header,
-} from 'semantic-ui-react';
+import { Image, Grid, Segment, Header } from 'semantic-ui-react';
 import Darkmode from 'darkmode-js';
 new Darkmode().showWidget();
 
 const photos = [
   'https://source.unsplash.com/featured/?{horizon}',
   'https://source.unsplash.com/featured/?{nature}',
-  'https://source.unsplash.com/featured/?{sun}',
+  'https://source.unsplash.com/featured/?{mountain}',
   'https://source.unsplash.com/featured/?{bird}',
   'https://source.unsplash.com/featured/?{valley}',
   'https://source.unsplash.com/featured/?{sky}',
   'https://source.unsplash.com/featured/?{desert}',
-  'https://source.unsplash.com/featured/?{child}',
-  'https://source.unsplash.com/featured/?{community}',
   'https://source.unsplash.com/featured/?{forrest}',
   'https://source.unsplash.com/featured/?{grass}',
   'https://source.unsplash.com/featured/?{sunset}',
 ];
-const number = Math.floor(Math.random() * 150);
 
 class Blog extends Component {
   constructor() {
@@ -44,7 +30,7 @@ class Blog extends Component {
 
   getData = () => {
     axios
-      .get('https://jsonplaceholder.typicode.com/posts?_limit=20')
+      .get('https://jsonplaceholder.typicode.com/posts?_limit=8')
       .then((res) => {
         this.setState({ posts: res.data });
       })
@@ -55,34 +41,24 @@ class Blog extends Component {
 
   render() {
     return (
-      <div
-        style={{
-          padding: '3em',
-          fontFamily: 'Optima',
-          fontSize: '1.2rem',
-        }}
-      >
-        <Header as='h2'>Our Blog Posts</Header>
+      <div className='divBlog'>
+        <Header className='hBlog' as='h1'>
+          Our Blog Posts
+        </Header>
+        <br />
         {this.state.posts.map((post, index) => {
           return (
-            <Segment>
-              <Grid columns={2}>
-                <Grid.Row>
-                  <Grid.Column>
-                    <Image
-                      src={photos[index]}
-                      size='medium'
-                      centered
-                      bordered
-                    />
-                  </Grid.Column>
-                  <Grid.Column>
-                    <Header as='h3'>{post.title}</Header>
-                    <p>{post.body}</p>
-                  </Grid.Column>
-                </Grid.Row>
-              </Grid>
-            </Segment>
+            <Grid className='gridBlog'>
+              <Grid.Column width={4}>
+                <img className='imgBlog' src={photos[index]} />
+              </Grid.Column>
+              <Grid.Column width={10}>
+                <Header className='hBlogBody' as='h2'>
+                  {post.title}
+                </Header>
+                <p className='pBlog'>{post.body}</p>
+              </Grid.Column>
+            </Grid>
           );
         })}
       </div>

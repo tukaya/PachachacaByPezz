@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Icon } from 'semantic-ui-react'
 
 const CardExampleImageCard = () => (
-<div className='styleDo'>
+<div className='styleDonate'>
 <Card fluid color='teal'>
     <Card.Content>
       <Card.Header>Donors</Card.Header>
