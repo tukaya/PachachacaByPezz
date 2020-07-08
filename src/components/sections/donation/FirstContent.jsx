@@ -3,7 +3,7 @@ import { Card, Icon } from 'semantic-ui-react'
 
 const CardExampleImageCard = () => (
   <div className='styleDonate'>
-      <Card fluid color='teal'>
+      <Card fluid>
     <Card.Content>
       <Card.Header>When is your gift tax deductible?</Card.Header>
       <Card.Meta>Donate once</Card.Meta>
