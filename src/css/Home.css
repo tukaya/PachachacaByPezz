@@ -4,20 +4,27 @@
 .minedivH{
     width: 100%;
     margin: 0 auto;
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 .div_Pach{
-    font-family: monospace;
-    /* transform: scaleX(0.884853); */
-    font-size:50px;
-    /* color: white; */
-    margin: 0 auto;
-    left: 5%;
-    /* top: 1%; */
-    width: 30%;
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
     text-align: center;
-    text-align-last: center;
-    display: inline-block;
+    /* font-size: 1.em; */
+    /* transform: scaleY(3.5); */
+    color: white;
+    /* letter-spacing: 8px; */
+    /* top: 1%; */
+    /* width: 30%; */
+}
+.div_Pach h1{
+    font-size: 55px;
+    letter-spacing: 8px;
+    font-family: sans-serif;
+    font-weight: 70;
+    /* transform: scaleY(0.884714); */
+    transform: scaleY(2.2);
 }
 .div_WELCOM{
     margin: 0 auto; 
@@ -34,8 +41,8 @@
     /* background-size: cover; */
     padding: 0.05%;
 } 
-.div_WELCOM:before {
-    /* content: "";
+/* .div_WELCOM:before {
+    content: "";
     background-color: rgba(85, 85, 92, 0.5);
     position: absolute;
     top: 0px;
@@ -43,8 +50,8 @@
     bottom: 0px;
     left: 0px; 
     width: 100%;
-    margin: 0 auto; */
-}
+    margin: 0 auto;
+} */
 .div_WELCOM h1{
     word-spacing: 50px;
     /* margin-bottom: 20%; */

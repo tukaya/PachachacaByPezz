@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import p1 from"../../images/Albums/p1.jpg";
 import p2 from"../../images/Albums/p2.jpg";
 import p3 from"../../images/Albums/p3.jpg";
-import { Container ,Divider} from 'semantic-ui-react';
 
 
  class Slide extends Component {
@@ -24,7 +23,6 @@ import { Container ,Divider} from 'semantic-ui-react';
             pauseOnHover: false
           };
         return (
-            <Container fluid>
             <div>
               <Slider 
               ref={slider => (this.slider = slider)}
@@ -33,9 +31,7 @@ import { Container ,Divider} from 'semantic-ui-react';
                   <div ><img className='albumSlider' src={p2} alt="p2"/></div>
                   <div ><img className='albumSlider' src={p3} alt="p3"/></div>
               </Slider>
-             <Divider />
             </div> 
-            </Container>
         )
     }     
 }

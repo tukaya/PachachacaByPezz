@@ -2,25 +2,13 @@
 import React, { Component } from 'react';
 import OurTeam from './OurTeam';
 import AboutUs from './AboutUs';
-import { Container, Divider } from 'semantic-ui-react';
-// import Logo from './Logo';
 
 class About extends Component {
   render() {
     return (
-      <div className='imgA'>
-        <Container>
-          <div>
-            <h1>About us</h1>
-            <Divider />
-              <AboutUs />
-                {/* <div  style={{marginTop:'50px'}}>
-                 <h1 className='shadow'>Our Team</h1>
-                </div> */}
-              <OurTeam /> 
-              {/* <Logo /> */}
-          </div>
-        </Container>
+      <div className='main_div_about'>
+        <AboutUs />
+        <OurTeam /> 
       </div>
     );
   }

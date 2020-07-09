@@ -38,10 +38,8 @@ import c from"../../images/c.jpg"
                 
             </Slider>
             <div className='div_Pach'>
-                <p>Pachachaca</p>
-                <hr/>
-                <p>You can make difference  ,,
-                Lima extraño la tranquilidad. </p>
+                <h1>Pachachaca</h1>
+                <p>2020</p>
             </div>
             </div> 
         )

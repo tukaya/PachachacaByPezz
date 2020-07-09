@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import { Container } from 'semantic-ui-react';
 import NewsletterFirst from './NewslatterFirst'
 import NewsletterSecond from './NewsletterSecond';
 
