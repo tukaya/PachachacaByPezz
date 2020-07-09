@@ -21,3 +21,8 @@
 /* *{
   border: 2px solid red;
 } */
+
+
+.darkmode--activated .div_WELCOM h1, .darkmode--activated .pBlog, .darkmode--activated .div_WELCOM, .darkmode--activated .ui.header {
+  color: white;
+}

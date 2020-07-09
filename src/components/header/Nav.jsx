@@ -27,6 +27,7 @@ import c from '../images/Logo/c.png'
                     <p className="ulN"><a href='https://www.instagram.com/pachachaca.calca/' target='_blank'>
                     <Icon circular className='sossial_icon'   name='instagram' size='large'/></a></p>
                     <br/>
+                    <Button compact><Link to='/contact'>Donate Now</Link></Button>
                     <Button compact><Link to='/contact'>Contact Us</Link></Button>
                 </div>
 

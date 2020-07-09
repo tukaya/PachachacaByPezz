@@ -1,5 +1,6 @@
+
+
 import React, { Component } from 'react';
-// import axios from 'axios';
 import { Grid, Header } from 'semantic-ui-react';
 import Darkmode from 'darkmode-js';
 new Darkmode().showWidget();
@@ -92,48 +93,36 @@ class Blog extends Component {
   render() {
     return (
       <div className='divBlog'>
-        <Header
-          as='h1'
-          style={{
-            fontFamily: 'sans-serif',
-            // fontSize: '3.2rem',
-            // paddingTop: '2%',
-            textAlign: 'center',
-            // letterSpacing: '0.8rem',
-          }}
-        >
-          Our Blog Posts
-          <hr />
-        </Header>
+        <h1 > Our Blog Posts <hr /> </h1>
         <br />
-        {this.state.posts.map((post, index) => {
-          return (
-            <Grid className='gridBlog'>
-              <Grid.Column width={4}>
-                <img className='imgBlog' alt='blog' src={photos[index]} />
-              </Grid.Column>
-              <Grid.Column width={10}>
-                <Header
-                  as='h2'
-                  style={{
-                    fontFamily: 'sans-serif',
-                    // fontSize: '2rem',
-                    paddingLeft: '15%',
-                    // textAlign: 'left',
-                  }}
-                >
-                  {post.title}
-                </Header>
-                <p className='pBlog'>
-                  {post.content}
-                  <br />
-                  <br />
-                  Written on: {post.date} by Daphne
-                </p>
-              </Grid.Column>
-            </Grid>
-          );
-        })}
+        <div> 
+          {this.state.posts.map((post, index) => {
+            return (
+              <Grid className='gridBlog'>
+                <Grid.Column width={4}>
+                  <img className='imgBlog' alt='blog' src={photos[index]} />
+                </Grid.Column>
+                <Grid.Column width={10}>
+                  <Header
+                    as='h2'
+                    style={{
+                      fontFamily: 'sans-serif',
+                      paddingLeft: '15%',
+                    }}
+                  >
+                    {post.title}
+                  </Header>
+                  <p className='pBlog'>
+                    {post.content}
+                    <br />
+                    <br />
+                    Written on: {post.date} by Daphne
+                  </p>
+                </Grid.Column>
+              </Grid>
+            );
+          })}
+        </div>
       </div>
     );
   }

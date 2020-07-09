@@ -6,7 +6,7 @@ import nieuwBriefTwo from '../../Pdffile/nieuwsbriefApr.pdf';
 
 const CardExampleImageCard = () => (
   <div className='newsletterStyle'>
-    <Card fluid color='teal'>
+    <Card fluid >
       <Card.Content>
         <Card.Header>Pachachaca</Card.Header>
         <Card.Meta>nieuwsbrief - April 2020</Card.Meta>
@@ -20,9 +20,7 @@ const CardExampleImageCard = () => (
           </Card.Description>
       </Card.Content>
       <Card.Content extra>
-          <a href='#' alt=''>
             <Icon name='heart' />
-          </a>
       </Card.Content>
     </Card>
   </div>

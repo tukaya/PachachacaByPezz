@@ -1,27 +1,25 @@
-.ui.images {
-    padding-top: 50px;
-}
-img.ui.image {
-    display: inline-block;
-}
 
-.imgA{
+
+.main_div_about{
     width: 80%;
-    height: auto;
+    margin: auto;
     text-align: center;
-    margin: 10px auto;    
-    border-radius: 10px;
     font-family: sans-serif;
+    margin-top:  4% ;
 }
 
-.aboutshadow{
+.div_about_shadow{
     box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
     -webkit-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
     -moz-box-shadow: 0px 0px 5px 10px rgba(148, 148, 184,0.8);
-    margin-top: 40px;
+    margin: auto;
+    margin-top:  4% ;
+    padding: 0.05%;
+    border-radius: 10px;
+    height: auto;
+    font-family: sans-serif;
 }
 
-.ourteam {
-    padding-top: 30px;
-    text-align: center;
+.ourteam { 
+    margin: auto;
 }

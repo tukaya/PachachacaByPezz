@@ -1,5 +1,5 @@
 
-.maindivF{
+.main_div_F{
   width: 100%;
   text-align: center;
   margin-top: 5%; 
@@ -10,21 +10,19 @@
   box-sizing: border-box;
 }
 
-.maindivF p{
-
+.main_div_F p{
+  font-family: sans-serif;
   color: gray;
 }
-.maindivF p span{
-  font-size: 1.3em;
-  color: white;
-  opacity: 0.8;
-}
-.maindivF h6{
+
+.main_div_F h6{
   padding-top: 1%;
   color: gray;
   margin: 0 auto;
+  font-family: sans-serif;
 }
-.maindivF h3{
+.main_div_F h3{
+  font-family: sans-serif;
   word-spacing: 10px;
 }
 
@@ -42,10 +40,7 @@
   vertical-align: top;
   display: inline-block;
   box-sizing: border-box;
-}
-.SOSIAL_border{
   position: relative;
-  
 }
 .SOSIAL_border:before{
   content: "";
@@ -60,7 +55,7 @@
   border-right: 2px solid white;
 }
  
-.maindivF_btn{
+.main_div_F_btn{
   position: fixed;
   right: 30px;
   bottom: 120px;
@@ -71,7 +66,7 @@
   justify-content: center;
   align-items: center;
 }
-.maindivF_btn2{
+.main_div_F_btn2{
   position: fixed;
   right: 30px;
   bottom: 76px;

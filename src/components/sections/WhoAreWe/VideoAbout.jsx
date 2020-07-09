@@ -1,9 +1,11 @@
+
+
 import React from 'react';
 import { Embed } from 'semantic-ui-react';
 import Videoabout from '../../images/About/p111.jpg';
 
 const EmbedExampleIframe = () => (
- <div className='styleVideo'>
+ <div >
     <Embed 
     autoplay={false}
     color='white'

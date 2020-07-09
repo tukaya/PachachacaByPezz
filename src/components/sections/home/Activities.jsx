@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 import axios from 'axios'
-import { Card,  Image ,Grid, Item ,Segment} from 'semantic-ui-react'
+import {Image, Grid, Segment} from 'semantic-ui-react'
 // import a from '../../images/a.jpg';
 
 class Activities extends Component {
@@ -61,7 +61,7 @@ class Activities extends Component {
         // console.log(this.state.photos)
         return (
                 <div  className='divhightA'>
-                    <h2>Current Activities</h2>
+                    <h1>Current Activities</h1>
                     <div className='grid_div'>
                         { this.state.test && this.state.test.map(val=>{
                                 // let theclassname = val.post.id %2 !==1?  'leftdiv': 'rightdiv';

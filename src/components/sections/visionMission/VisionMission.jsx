@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { Image, Header } from 'semantic-ui-react';
 
@@ -7,18 +9,14 @@ const GridExampleColumnWidth = () => (
       as='h1'
       style={{
         fontFamily: 'sans-serif',
-        // fontSize: '3.2rem',
-        // paddingTop: '2%',
-        textAlign: 'center',
-        // letterSpacing: '0.8rem',
+        textAlign: 'center'
       }}
     >
       Vision & Mission
       <hr />
     </Header>
-    <Image
+    <Image className='margin_align'
       src={'https://i.postimg.cc/L6cQxmpY/do-something-great.jpg'}
-      // size='massive'
     />
     <br />
     <Header
@@ -59,7 +57,6 @@ const GridExampleColumnWidth = () => (
       as='h2'
       style={{
         fontFamily: 'sans-serif',
-        // fontSize: '3rem',
         textAlign: 'center',
       }}
     >
