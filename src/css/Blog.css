@@ -21,7 +21,7 @@
   margin-left: 4%;
   display: grid;
   gap: 3%;
-  grid-template-columns: auto auto ;
+  /* grid-template-columns: auto auto ; */
 }
 .pBlog {
   font-family: sans-serif;

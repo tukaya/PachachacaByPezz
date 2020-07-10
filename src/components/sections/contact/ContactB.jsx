@@ -56,7 +56,7 @@ class Contact  extends Component {
       return (
            <div className='contact_card '> 
                <Card fluid  >
-                   <Card.Header  ><h2 className='cardheader '>Contact Us</h2></Card.Header>
+                   <Card.Header  ><h2 className='cardheader '>Contact Pachachaca</h2></Card.Header>
                    <Card.Content className='Cardcontent'>
                        <label className='cardtext'>Name</label>
                        <input className='input'
