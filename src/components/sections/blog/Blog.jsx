@@ -97,8 +97,9 @@ class Blog extends Component {
         <br />
         <div> 
           {this.state.posts.map((post, index) => {
-            return (
-              <Grid className='gridBlog'>
+            return ( 
+              <div>
+                  <Grid className='gridBlog'>
                 <Grid.Column width={4}>
                   <img className='imgBlog' alt='blog' src={photos[index]} />
                 </Grid.Column>
@@ -120,6 +121,8 @@ class Blog extends Component {
                   </p>
                 </Grid.Column>
               </Grid>
+              </div>
+              
             );
           })}
         </div>

@@ -31,8 +31,11 @@ class Home extends Component {
                 <Button.Or />
                 <Button><Link to='/contact'>Contact Us</Link></Button>
               </Button.Group>
-        </div >
-        {/* <Activities/> */}
+        </div>
+        <div >
+          <Activities/>
+        </div>
+        
       </div>
     );
   }
