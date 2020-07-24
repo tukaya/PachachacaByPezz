@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 import axios from 'axios'
-import {Image, Grid, Segment} from 'semantic-ui-react'
+import {Image, Grid,  Card} from 'semantic-ui-react'
 // import a from '../../images/a.jpg';
 
 class Activities extends Component {
@@ -19,7 +19,7 @@ class Activities extends Component {
         this.getdata()
     }   
     getphoto=()=>{ 
-        axios.get('https://jsonplaceholder.typicode.com/photos?_limit=2')
+        axios.get('https://jsonplaceholder.typicode.com/photos?_limit=7')
         .then((res)=>{ 
             this.setState({photos:res.data})
         // console.log(res) 
@@ -29,7 +29,7 @@ class Activities extends Component {
         }) 
     }
     getdata=()=>{
-        axios.get('https://jsonplaceholder.typicode.com/posts?_limit=2')
+        axios.get('https://jsonplaceholder.typicode.com/posts?_limit=7')
         .then((res)=> {
              // console.log(res)
             this.setState({posts:res.data})
@@ -60,30 +60,29 @@ class Activities extends Component {
         // console.log(this.state.test)
         // console.log(this.state.photos)
         return (
-                <div  className='divhightA'>
+                <div  className='div_Activities'>
                     <h1>Current Activities</h1>
-                    <div className='grid_div'>
+                    <hr/>
+                    <br/>
+                    <div className='grid_div' >
                         { this.state.test && this.state.test.map(val=>{
                                 // let theclassname = val.post.id %2 !==1?  'leftdiv': 'rightdiv';
                                 return(
                                     <div className='date' >
-                                        <Grid celled >
-                                            <Grid.Row >
-                                                {/* <Grid.Column width={3}>
-                                                    <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                                                </Grid.Column> */}
-                                                <Grid.Column width={8}>
-                                                <Segment> {val.post.title}</Segment>
-                                               
+                                        <Card fluid className='date_grid'>
+                                            <Grid>
+                                                <Grid.Column width={10}>
+                                                    <h2> {val.post.title}</h2>
+                                                    <Card.Meta> in 2020</Card.Meta>
+                                                    <p> {val.post.body}{val.post.body}{val.post.body}</p>
                                                 </Grid.Column>
-                                                <Grid.Column width={8}>
-                                                 <Image  height='250px' src={val.photo.url}></Image> 
+                                                <Grid.Column width={6}>
+                                                    <Image  floated='right' height='250px'  src={val.photo.url}/>
                                                 </Grid.Column>
-                                            </Grid.Row>
-                                        </Grid>
+                                            </Grid>
+                                        </Card>
                                     </div>    
                                 )
-                                
                             })
                         }
                     </div>
