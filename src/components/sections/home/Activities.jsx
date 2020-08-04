@@ -3,7 +3,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import {Image, Grid,  Card} from 'semantic-ui-react'
-// import a from '../../images/a.jpg';
+import a from '../../images/a.jpg';
 
 class Activities extends Component {
     constructor(){

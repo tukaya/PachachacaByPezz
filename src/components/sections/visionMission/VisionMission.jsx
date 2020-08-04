@@ -5,30 +5,10 @@ import { Image, Header } from 'semantic-ui-react';
 
 const GridExampleColumnWidth = () => (
   <div className='div-vision'>
-    <Header
-      as='h1'
-      style={{
-        fontFamily: 'sans-serif',
-        textAlign: 'center'
-      }}
-    >
-      Vision & Mission
-      <hr />
-    </Header>
-    <Image className='margin_align'
-      src={'https://i.postimg.cc/L6cQxmpY/do-something-great.jpg'}
-    />
+    <h1 className='margin_align'>Vision & Mission <hr /></h1>
+    <Image className='margin_align' src={'https://i.postimg.cc/L6cQxmpY/do-something-great.jpg'}/>
     <br />
-    <Header
-      as='h2'
-      style={{
-        fontFamily: 'sans-serif',
-        // fontSize: '3rem',
-        textAlign: 'center',
-      }}
-    >
-      Pachachaca
-    </Header>
+    <h2 className='margin_align'>Pachachaca </h2>
     <p className='pVision'>
       We work from the vision that everything must be done to improve the
       household situation of children who are in social risk situations.
@@ -53,15 +33,7 @@ const GridExampleColumnWidth = () => (
       behavior in their daily life and living environment. Ultimately, they must
       be able to become part of society as full citizens".
     </p>
-    <Header
-      as='h2'
-      style={{
-        fontFamily: 'sans-serif',
-        textAlign: 'center',
-      }}
-    >
-      Yoreem Foundation
-    </Header>
+    <h2 className='margin_align'>Yoreem Foundation</h2>
     <p className='pVision'>
       We support projects that we trust. And we only have trust if we know
       project are thought through and contribute to an integral, long term

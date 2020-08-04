@@ -7,7 +7,7 @@ import two from '../../images/About/two.jpg'
 
 
 const GridExampleStackable = () => (
-  <div className='div_about_shadow ' style={{paddingBottom:'10px'}}>
+  <div className='div_ourteam_shadow ' style={{paddingBottom:'10px'}}>
       {/* <div className='ourteam'> */}
         <h1>Our Team</h1>
         <hr/>

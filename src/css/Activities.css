@@ -16,8 +16,6 @@
 .div_Activities h1{
     text-align: center;
     word-spacing: 30px;
-    margin: 0 auto;
-    padding: 0 auto;
    padding-bottom:  0.5%;
 }
 .div_Activities h2{
@@ -32,19 +30,20 @@
 }
 .div_Activities P{
     padding-left: 4% ;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
     font-variant-caps: normal;
     overflow-Y: scroll;
     /* overflow-y: hidden; */
     height: 125px;
-    box-sizing: content-box;
+    box-sizing:border-box;
     /* border: 2px solid red; */
 }
 
 .grid_div{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto  auto ;
+    grid-template-columns: auto auto  ;
     /* border: 2px solid red; */
 }
 .date{
@@ -62,4 +61,15 @@
 .date_grid{
     max-height: 250px;
     box-sizing: border-box;
+}
+.darkmode--activated .div_Activities h2, .darkmode--activated .div_Activities h1 {
+    color: purple;
+    position: relative;
+}
+.darkmode--activated .div_Activities p{
+    color: white;
+}
+
+.darkmode--activated .ui.grid .column{
+    background-color: black;
 }

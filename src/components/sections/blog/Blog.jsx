@@ -75,20 +75,6 @@ class Blog extends Component {
       ],
     };
   }
-  // componentDidMount() {
-  //   this.getData();
-  // }
-
-  // getData = () => {
-  //   axios
-  //     .get('https://jsonplaceholder.typicode.com/posts?_limit=8')
-  //     .then((res) => {
-  //       this.setState({ posts: res.data });
-  //     })
-  //     .catch((error) => {
-  //       console.log(error);
-  //     });
-  // };
 
   render() {
     return (
@@ -99,28 +85,28 @@ class Blog extends Component {
           {this.state.posts.map((post, index) => {
             return ( 
               <div>
-                  <Grid className='gridBlog'>
-                <Grid.Column width={4}>
-                  <img className='imgBlog' alt='blog' src={photos[index]} />
-                </Grid.Column>
-                <Grid.Column width={10}>
-                  <Header
-                    as='h2'
-                    style={{
-                      fontFamily: 'sans-serif',
-                      paddingLeft: '15%',
-                    }}
-                  >
-                    {post.title}
-                  </Header>
-                  <p className='pBlog'>
-                    {post.content}
-                    <br />
-                    <br />
-                    Written on: {post.date} by Daphne
-                  </p>
-                </Grid.Column>
-              </Grid>
+                    <Grid className='gridBlog'>
+                      <Grid.Column width={4}>
+                        <img className='imgBlog' alt='blog' src={photos[index]} />
+                      </Grid.Column>
+                  <Grid.Column width={10}>
+                    <Header
+                      as='h2'
+                      style={{
+                        fontFamily: 'sans-serif',
+                        paddingLeft: '15%',
+                      }}
+                    >
+                      {post.title}
+                    </Header>
+                    <p className='pBlog'>
+                      {post.content}
+                      <br />
+                      <br />
+                      Written on: {post.date} by Daphne
+                    </p>
+                  </Grid.Column>
+                </Grid>
               </div>
               
             );

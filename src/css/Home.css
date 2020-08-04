@@ -2,7 +2,6 @@
 
 
 .minedivH{
-    width: 100%;
     margin: 0 auto;
     font-size: 1.3em;
 }
@@ -61,4 +60,14 @@
 }
 .slick-arrow{
     display: none !important;
+}
+
+
+.darkmode--activated 
+.div_WELCOM h1{
+    color: purple;
+}
+.darkmode--activated 
+.div_WELCOM{
+    color: white;
 }
